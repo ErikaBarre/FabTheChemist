@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
-public class JdbcConnectDb {
+public class JdbcConnectDb { //
 	
 	public static void main(String[] args) {
 		try { 
