@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+	
+	<!-- Appenders -->
+
+	<appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
+		<param name="Threshold" value="TRACE" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p [%C:%L] %m%n" />
+		</layout>
+	</appender>
+	
+	<appender name="CONSOLE_WITH_LINE" class="org.apache.log4j.ConsoleAppender">
+		<param name="Threshold" value="INFO" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p [%C:%L] %m%n" />
+		</layout>
+	</appender>
+		
+	<appender name="DAILYROLLING" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="../logs/erapnot.log" /> 
+		<param name="DatePattern" value="'.'yyyy-MM-dd" /> 
+		<param name="Append" value="true" /> 		
+		<!--<param name="Threshold" value="DEBUG"/>-->
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{HH:mm:ss:SSS} %-5p [%C:%L] %m%n"/>
+		</layout>
+		<filter class="org.apache.log4j.varia.LevelRangeFilter">
+			<param name="levelMin" value="INFO"/>
+			<param name="levelMax" value="FATAL"/>
+		</filter>
+	</appender>
+		
+	<appender name="SIZEROLLING" class="org.apache.log4j.RollingFileAppender"> 
+		<param name="file" value="../logs/META.log"/>
+		<!--<param name="FileNamePattern" value="../logs/META.%d{yyyy-MM-dd_HH}.log"/>-->
+		<param name="MaxFileSize" value="3000KB"/>
+		<param name="MaxBackupIndex" value="1"/>
+		<layout class="org.apache.log4j.PatternLayout"> 
+			<param name="ConversionPattern" value="%d %-5p [%C:%L] %m%n" />
+		</layout> 
+		<filter class="org.apache.log4j.varia.LevelRangeFilter">
+			<param name="levelMin" value="INFO"/>
+			<param name="levelMax" value="FATAL"/>
+		</filter>
+	</appender> 
+	
+	
+	<!-- Appli -->
+		 
+	<logger name="fab.the.chemist" additivity="false">
+		<level value="ALL" />
+		<appender-ref ref="CONSOLE_WITH_LINE" /> 
+		<!--	<appender-ref ref="SIZEROLLING" />--> 
+		<appender-ref ref="DAILYROLLING" />
+	</logger>
+	
+	<logger name="com.sun.faces" additivity="false">
+	<!--	<level value="INFO" /> -->
+		<appender-ref ref="CONSOLE_WITH_LINE" /> 
+	<!--	<appender-ref ref="SIZEROLLING" />--> 
+		<appender-ref ref="DAILYROLLING" />
+	</logger>
+	
+	
+	
+	
+	<logger name="test" additivity="false">
+	<!--	<level value="INFO" /> -->
+		<appender-ref ref="CONSOLE_WITH_LINE" /> 
+	<!--	<appender-ref ref="SIZEROLLING" />--> 
+		<appender-ref ref="DAILYROLLING" />
+	</logger>
+
+	
+	<!-- Myfaces -->
+	<logger name="org.apache.myfaces" additivity="false">
+		<level value="INFO" />
+		<appender-ref ref="CONSOLE_WITH_LINE" /> 
+		<!--	<appender-ref ref="SIZEROLLING" />--> 
+		<appender-ref ref="DAILYROLLING" />
+	</logger>
+	
+	<!-- Catalina -->
+	<logger name="org.apache.catalina.core" additivity="false">
+		<level value="INFO" />
+		<appender-ref ref="CONSOLE_WITH_LINE" /> 
+		<appender-ref ref="DAILYROLLING" />
+	</logger>
+	<logger name="org.apache.catalina.startup" additivity="false">
+		<level value="INFO" />
+		<appender-ref ref="CONSOLE_WITH_LINE" /> 
+		<appender-ref ref="DAILYROLLING" />
+	</logger>
+	
+	<!-- Quartz -->
+	<logger name="org.quartz" additivity="false">
+		<level value="INFO" />
+		<appender-ref ref="CONSOLE_WITH_LINE" /> 
+		<!--	<appender-ref ref="SIZEROLLING" />--> 
+		<appender-ref ref="DAILYROLLING" />
+	</logger>
+	
+	<!-- Hibernate -->
+	<logger name="org.hibernate" additivity="false">
+		<level value="INFO" />
+		<appender-ref ref="CONSOLE_WITH_LINE" /> 
+		<!--	<appender-ref ref="SIZEROLLING" />--> 
+		<appender-ref ref="DAILYROLLING" />
+	</logger>
+	
+	<!-- Spring -->
+	
+	<logger name="org.springframework" additivity="false">
+		<level value="INFO" />
+		<appender-ref ref="CONSOLE_WITH_LINE" /> 
+		<!--	<appender-ref ref="SIZEROLLING" />--> 
+		<appender-ref ref="DAILYROLLING" />
+	</logger>
+	
+	<!-- Security ISP -->
+	<!-- <logger name="ec.ep.dit.isp.security" additivity="false">
+		<level value="INFO" />
+		<appender-ref ref="CONSOLE_WITH_LINE" /> 
+			<appender-ref ref="SIZEROLLING" /> 
+		<appender-ref ref="DAILYROLLING" />
+	</logger> -->
+	
+	<!-- Servlet -->
+	
+	
+	
+	<logger name="javax.el" additivity="false">
+		<level value="INFO" />
+		<appender-ref ref="CONSOLE_WITH_LINE" /> 
+		<!--	<appender-ref ref="SIZEROLLING" />--> 
+		<appender-ref ref="DAILYROLLING" />
+	</logger>
+	
+	<logger name="javax.faces" additivity="false">
+		<level value="INFO" />
+		<appender-ref ref="CONSOLE_WITH_LINE" /> 
+		<!--	<appender-ref ref="SIZEROLLING" />--> 
+		<appender-ref ref="DAILYROLLING" />
+	</logger>
+	
+	
+	<logger name="catalina" additivity="false">
+		<level value="INFO" />
+		<appender-ref ref="CONSOLE_WITH_LINE" /> 
+		<!--	<appender-ref ref="SIZEROLLING" />--> 
+		<appender-ref ref="DAILYROLLING" />
+	</logger>
+	
+	<logger name="org.activiti" additivity="false">
+		<level value="INFO" />
+		<appender-ref ref="CONSOLE_WITH_LINE" /> 
+		<!--	<appender-ref ref="SIZEROLLING" />--> 
+		<appender-ref ref="DAILYROLLING" />
+	</logger>
+	
+	
+	
+	<root>
+		<level value="info" />
+		<appender-ref ref="CONSOLE" />
+	</root>
+	
+	
+
+
+	
+	
+</log4j:configuration>

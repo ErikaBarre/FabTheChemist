@@ -5,15 +5,19 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
-public class JdbcConnectDb { //
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class JdbcConnectDb {
 	
 	public static void main(String[] args) {
+				
+		Logger LOGGER = LoggerFactory.getLogger(JdbcConnectDb.class.getName());
 		try { 
 			Class.forName("org.postgresql.Driver");
-			System.out.println("Driver O.K.");
-		} catch (ClassNotFoundException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
+			//System.out.println("Driver O.K.");
+		} catch (ClassNotFoundException e) {
+			LOGGER.error("DRIVER ERROR" , e);
 		}
 		//5432
 		String url = "jdbc:postgresql://192.168.178.25:5432/fabthechemistdb";
@@ -25,12 +29,11 @@ public class JdbcConnectDb { //
 		//props.setProperty("ssl","true");
 		try {
 			Connection conn = DriverManager.getConnection(url, props);
-			System.out.println("dfdfsdsfdsf");
+			conn.close();
+			LOGGER.info("fin de connection [{}]", "testdb");
+			
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			LOGGER.error("CONNECTION ERROR", e);
 		}
-
 	}
-
 }
