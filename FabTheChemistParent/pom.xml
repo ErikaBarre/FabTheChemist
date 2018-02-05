@@ -12,10 +12,10 @@
 	<name>FabTheChemistParent</name>
 	
 	<url>http://maven.apache.org</url>
-<modules>
-<module>../FabTheChemistSqlDb</module>
-<module>../FabTheChemistWeb</module>
-</modules>
+	<modules>
+		<module>../FabTheChemistSqlDb</module>
+		<module>../FabTheChemistWeb</module>
+	</modules>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<basedir>/home/fabrice/Application/maven3-repo</basedir>
