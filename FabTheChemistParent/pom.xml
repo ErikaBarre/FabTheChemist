@@ -7,7 +7,7 @@
 	<groupId>fab.the.chemist.org</groupId> 
 	<artifactId>FabTheChemistParent</artifactId>
 	<version>1.0</version>
-	<packaging>pom</packaging>
+	<packaging>pom</packaging> 
 
 	<name>FabTheChemistParent</name>
 	
