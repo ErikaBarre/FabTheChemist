@@ -18,7 +18,7 @@
 	</modules>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<basedir>/home/fabrice/Application/maven3-repo</basedir>
+		<basedir>/home/fabrice/Developpement/maven3-repo</basedir>
 		<basedir2>/home/pi/maven3-repo</basedir2>
 		<spring.version>5.0.2.RELEASE</spring.version> 
 		<log4j.version>1.2.17</log4j.version>
