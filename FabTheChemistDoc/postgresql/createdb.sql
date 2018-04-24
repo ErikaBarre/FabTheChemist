@@ -70,6 +70,6 @@ CREATE TABLE Contact (
     notes varchar(255),
     starred boolean not null,
     website varchar(255)
-)
+);
 
 
