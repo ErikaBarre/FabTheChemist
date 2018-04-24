@@ -63,7 +63,7 @@ CREATE TABLE commande_produits (
 	PRIMARY KEY (no_produit, id_commande)
 );
 CREATE TABLE Contact (
-    id integer integer PRIMARY KEY,
+    id integer  PRIMARY KEY,
     first varchar(255),
     last varchar(255),
     middle varchar(255),
