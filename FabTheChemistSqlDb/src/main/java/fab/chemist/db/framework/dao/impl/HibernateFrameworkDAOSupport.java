@@ -23,6 +23,9 @@ public abstract class HibernateFrameworkDAOSupport {
 	}
 
 	protected final Session getSession() {
+		
+		
+		
 		return getSession(false);
 	}
 

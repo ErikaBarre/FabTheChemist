@@ -2,7 +2,11 @@ package fab.chemist.dbsql.dao.impl;
 
 import java.util.Date;
 
+import javax.persistence.criteria.CriteriaBuilder;
+
 import org.hibernate.Criteria;
+import org.hibernate.Session;
+import org.hibernate.criterion.CriteriaQuery;
 import org.hibernate.criterion.Restrictions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -36,8 +40,13 @@ public class ReviewPeriodDAO extends GenericDAO<ReviewPeriod, Long> implements I
 
 
 	public ReviewPeriod getReviewPeriodForAPeriod(Date startDate,Date endDate){
+		Session session = sessionFactory.openSession();
+		CriteriaBuilder builder = session.getCriteriaBuilder();
+
+		// Create CriteriaQuery
+		CriteriaQuery<ReviewPeriod> criteria = builder.createQuery(ReviewPeriod.class);
 		
-		Criteria criteria = getSession().createCriteria(ReviewPeriod.class);
+		Criteria criteria = getSession().getcreateCriteria(ReviewPeriod.class);
 		if(startDate!=null){
 			criteria.add(Restrictions.ge("startDate",startDate));
 		}

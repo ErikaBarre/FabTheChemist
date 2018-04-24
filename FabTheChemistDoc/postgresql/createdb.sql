@@ -62,3 +62,14 @@ CREATE TABLE commande_produits (
 	quantite integer,
 	PRIMARY KEY (no_produit, id_commande)
 );
+CREATE TABLE Contact (
+    id integer integer PRIMARY KEY,
+    first varchar(255),
+    last varchar(255),
+    middle varchar(255),
+    notes varchar(255),
+    starred boolean not null,
+    website varchar(255)
+)
+
+

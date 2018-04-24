@@ -4,7 +4,9 @@ import static org.junit.Assert.*;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.Properties;
 
 import org.junit.Test;
@@ -31,15 +33,35 @@ public class connectDbTest {
 		Properties props = new Properties();
 		props.setProperty("user","postgres");
 		props.setProperty("password","");
+		
+		String sqlRequest = "SELECT table_name FROM information_schema.tables WHERE table_schema='public'";
+		Statement stmt = null;
+	    
+		
 		//props.setProperty("ssl","true");
 		try {
-			Connection conn = DriverManager.getConnection(url, props);
-			conn.close();
+			Connection connection = DriverManager.getConnection(url, props);
+			
+			stmt = connection.createStatement();
+	        ResultSet rs = stmt.executeQuery(sqlRequest);
+	        while (rs.next()) {
+	            String coffeeName = rs.getString("table_name");
+	           
+	            LOGGER.info(coffeeName);
+	        }
+	            connection.close();
 			LOGGER.info("fin de connection [{}]", "testdb");
 			
 		} catch (SQLException e) {
 			LOGGER.error("CONNECTION ERROR", e);
 		}
 	}
+	
+	@Test
+	public void testHibernateConnectPostGresSql() {
+		
+		
+	}
+	
 
 }

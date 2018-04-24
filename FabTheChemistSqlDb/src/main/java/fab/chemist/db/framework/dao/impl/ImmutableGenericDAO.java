@@ -92,7 +92,8 @@ public abstract class ImmutableGenericDAO <T extends Serializable,KEY extends Se
 	}
 	
 	public Long getRowCount() {		
-		Criteria criteria = getSession().createCriteria(getEntityClass());		
+		//Criteria criteria = getSession().createCriteria(getEntityClass());		
+		Criteria criteria = getSession().getCriteriaBuilder();
 		criteria.setProjection(Projections.rowCount());
 		return (Long) criteria.uniqueResult();
 	}
