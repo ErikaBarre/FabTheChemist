@@ -1,0 +1,171 @@
+00:04:07:098 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d554825: startup date [Fri May 18 00:04:07 CEST 2018]; root of context hierarchy
+00:04:07:163 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+00:04:07:304 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+00:04:07:580 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+00:04:07:733 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+00:04:07:734 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+00:04:07:756 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+00:04:07:775 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+00:04:07:860 INFO  [org.hibernate.Version:45] HHH000412: Hibernate Core {5.2.16.Final}
+00:04:07:861 INFO  [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+00:04:07:903 INFO  [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+00:04:07:987 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+00:04:07:991 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb]
+00:04:07:991 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+00:04:07:992 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+00:04:07:994 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+00:04:08:110 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+00:04:09:391 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:124] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+00:04:09:398 INFO  [org.hibernate.type.BasicTypeRegistry:148] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@77a7cf58
+00:04:09:853 INFO  [org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl:47] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7ed9ae94] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+00:04:09:947 INFO  [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:394] Initialized JPA EntityManagerFactory for persistence unit 'CRM'
+00:04:10:324 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator:47] HHH000397: Using ASTQueryTranslatorFactory
+00:04:16:438 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d554825: startup date [Fri May 18 00:04:16 CEST 2018]; root of context hierarchy
+00:04:16:498 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+00:04:16:633 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+00:04:16:849 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+00:04:16:981 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+00:04:16:983 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+00:04:17:006 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+00:04:17:025 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+00:04:17:113 INFO  [org.hibernate.Version:45] HHH000412: Hibernate Core {5.2.16.Final}
+00:04:17:116 INFO  [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+00:04:17:158 INFO  [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+00:04:17:237 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+00:04:17:242 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb]
+00:04:17:243 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+00:04:17:243 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+00:04:17:245 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+00:04:17:365 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+00:04:18:661 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:124] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+00:04:18:669 INFO  [org.hibernate.type.BasicTypeRegistry:148] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@77a7cf58
+00:04:19:142 INFO  [org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl:47] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7ed9ae94] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+00:04:19:239 INFO  [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:394] Initialized JPA EntityManagerFactory for persistence unit 'CRM'
+00:04:19:607 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator:47] HHH000397: Using ASTQueryTranslatorFactory
+00:06:36:277 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d554825: startup date [Fri May 18 00:06:36 CEST 2018]; root of context hierarchy
+00:06:36:338 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+00:06:36:469 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+00:06:36:709 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+00:06:36:839 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+00:06:36:840 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+00:06:36:860 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+00:06:36:879 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+00:06:36:966 INFO  [org.hibernate.Version:45] HHH000412: Hibernate Core {5.2.16.Final}
+00:06:36:969 INFO  [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+00:06:37:013 INFO  [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+00:06:37:095 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+00:06:37:099 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb]
+00:06:37:100 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+00:06:37:100 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+00:06:37:104 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+00:06:37:207 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+00:06:38:494 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:124] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+00:06:38:500 INFO  [org.hibernate.type.BasicTypeRegistry:148] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@77a7cf58
+00:06:38:951 INFO  [org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl:47] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7ed9ae94] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+00:06:39:045 INFO  [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:394] Initialized JPA EntityManagerFactory for persistence unit 'CRM'
+00:06:39:369 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator:47] HHH000397: Using ASTQueryTranslatorFactory
+00:06:40:725 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper:129] SQL Error: 0, SQLState: 23505
+00:06:40:726 ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper:131] ERREUR: la valeur d'une clé dupliquée rompt la contrainte unique « doit_etre_different »
+  Détail : La clé « (no_produit)=(25) » existe déjà.
+00:06:40:728 ERROR [org.hibernate.internal.ExceptionMapperStandardImpl:39] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+00:07:33:364 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d554825: startup date [Fri May 18 00:07:33 CEST 2018]; root of context hierarchy
+00:07:33:423 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+00:07:33:557 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+00:07:33:768 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+00:07:33:905 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+00:07:33:906 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+00:07:33:931 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+00:07:33:950 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+00:07:34:032 INFO  [org.hibernate.Version:45] HHH000412: Hibernate Core {5.2.16.Final}
+00:07:34:034 INFO  [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+00:07:34:074 INFO  [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+00:07:34:150 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+00:07:34:153 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb]
+00:07:34:154 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+00:07:34:154 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+00:07:34:156 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+00:07:34:252 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+00:07:35:557 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:124] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+00:07:35:564 INFO  [org.hibernate.type.BasicTypeRegistry:148] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@77a7cf58
+00:07:36:025 INFO  [org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl:47] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7ed9ae94] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+00:07:36:124 INFO  [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:394] Initialized JPA EntityManagerFactory for persistence unit 'CRM'
+00:07:36:463 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator:47] HHH000397: Using ASTQueryTranslatorFactory
+00:08:45:792 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d554825: startup date [Fri May 18 00:08:45 CEST 2018]; root of context hierarchy
+00:08:45:856 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+00:08:45:995 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+00:08:46:202 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+00:08:46:331 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+00:08:46:334 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+00:08:46:355 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+00:08:46:380 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+00:08:46:466 INFO  [org.hibernate.Version:45] HHH000412: Hibernate Core {5.2.16.Final}
+00:08:46:470 INFO  [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+00:08:46:513 INFO  [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+00:08:46:595 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+00:08:46:599 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb]
+00:08:46:600 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+00:08:46:600 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+00:08:46:603 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+00:08:46:720 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+00:08:47:996 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:124] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+00:08:48:002 INFO  [org.hibernate.type.BasicTypeRegistry:148] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@77a7cf58
+00:08:48:245 INFO  [org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl:47] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5f7f2382] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+00:08:48:343 INFO  [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:394] Initialized JPA EntityManagerFactory for persistence unit 'CRM'
+00:10:08:264 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d554825: startup date [Fri May 18 00:10:08 CEST 2018]; root of context hierarchy
+00:10:08:326 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+00:10:08:473 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+00:10:08:699 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+00:10:08:864 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+00:10:08:866 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+00:10:08:890 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+00:10:08:914 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+00:10:09:007 INFO  [org.hibernate.Version:45] HHH000412: Hibernate Core {5.2.16.Final}
+00:10:09:009 INFO  [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+00:10:09:051 INFO  [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+00:10:09:133 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+00:10:09:137 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb]
+00:10:09:137 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+00:10:09:138 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+00:10:09:140 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+00:10:09:260 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+00:10:10:560 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:124] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+00:10:10:568 INFO  [org.hibernate.type.BasicTypeRegistry:148] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@77a7cf58
+00:10:11:083 INFO  [org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl:47] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7ed9ae94] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+00:10:11:179 INFO  [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:394] Initialized JPA EntityManagerFactory for persistence unit 'CRM'
+00:10:11:544 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator:47] HHH000397: Using ASTQueryTranslatorFactory
+00:12:51:140 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d554825: startup date [Fri May 18 00:12:51 CEST 2018]; root of context hierarchy
+00:12:51:201 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+00:12:51:334 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+00:12:51:557 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+00:12:51:693 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+00:12:51:694 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+00:12:51:717 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+00:12:51:736 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+00:12:51:827 INFO  [org.hibernate.Version:45] HHH000412: Hibernate Core {5.2.16.Final}
+00:12:51:829 INFO  [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+00:12:51:876 INFO  [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+00:12:51:955 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+00:12:51:961 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb]
+00:12:51:961 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+00:12:51:962 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+00:12:51:964 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+00:12:52:073 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+00:12:53:372 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:124] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+00:12:53:378 INFO  [org.hibernate.type.BasicTypeRegistry:148] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@77a7cf58
+00:12:53:871 INFO  [org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl:47] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7ed9ae94] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+00:12:53:984 INFO  [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:394] Initialized JPA EntityManagerFactory for persistence unit 'CRM'
+00:12:54:392 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator:47] HHH000397: Using ASTQueryTranslatorFactory

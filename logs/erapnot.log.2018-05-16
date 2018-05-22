@@ -1,0 +1,689 @@
+22:40:28:356 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d554825: startup date [Wed May 16 22:40:28 CEST 2018]; root of context hierarchy
+22:40:28:484 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+22:40:28:707 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+22:40:29:049 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+22:40:29:210 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+22:40:29:212 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+22:40:29:240 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+22:40:29:265 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+22:40:29:374 INFO  [org.hibernate.Version:45] HHH000412: Hibernate Core {5.2.16.Final}
+22:40:29:376 INFO  [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+22:40:29:436 INFO  [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+22:40:29:550 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+22:40:29:556 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+22:40:29:557 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+22:40:29:557 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+22:40:29:560 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+22:40:29:607 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+22:40:29:629 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79c97cb: startup date [Wed May 16 22:40:29 CEST 2018]; root of context hierarchy
+22:40:29:630 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+22:40:29:664 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+22:40:29:720 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+22:40:29:753 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+22:40:29:753 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+22:40:29:754 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+22:40:29:754 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+22:40:29:762 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+22:40:29:762 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+22:40:29:763 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+22:40:29:763 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+22:40:29:764 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+22:40:29:786 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+22:40:29:789 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@b978d10: startup date [Wed May 16 22:40:29 CEST 2018]; root of context hierarchy
+22:40:29:789 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+22:40:29:824 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+22:40:29:866 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+22:40:29:896 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+22:40:29:896 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+22:40:29:897 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+22:40:29:897 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+22:40:29:906 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+22:40:29:906 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+22:40:29:907 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+22:40:29:907 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+22:40:29:908 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+22:40:29:925 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+22:40:29:928 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@babafc2: startup date [Wed May 16 22:40:29 CEST 2018]; root of context hierarchy
+22:40:29:928 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+22:40:29:949 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+22:40:29:983 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+22:40:30:008 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+22:40:30:008 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+22:40:30:009 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+22:40:30:009 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+22:40:30:014 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+22:40:30:015 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+22:40:30:015 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+22:40:30:016 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+22:40:30:016 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+22:40:30:037 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+22:40:30:040 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@21337f7b: startup date [Wed May 16 22:40:30 CEST 2018]; root of context hierarchy
+22:40:30:040 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+22:40:30:109 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+22:40:30:191 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+22:40:30:215 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+22:40:30:216 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+22:40:30:217 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+22:40:30:217 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+22:40:30:227 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+22:40:30:228 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+22:40:30:229 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+22:40:30:229 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+22:40:30:233 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+22:40:30:251 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+22:40:30:254 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b88ca8c: startup date [Wed May 16 22:40:30 CEST 2018]; root of context hierarchy
+22:40:30:254 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+22:40:30:276 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+22:40:30:309 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+22:40:30:343 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+22:40:30:344 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+22:40:30:344 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+22:40:30:344 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+22:40:30:363 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+22:40:30:364 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+22:40:30:365 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+22:40:30:365 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+22:40:30:365 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+22:40:30:382 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+22:43:21:660 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d554825: startup date [Wed May 16 22:43:21 CEST 2018]; root of context hierarchy
+22:43:21:726 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+22:43:21:872 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+22:43:22:108 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+22:43:22:256 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+22:43:22:257 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+22:43:22:278 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+22:43:22:304 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+22:43:22:394 INFO  [org.hibernate.Version:45] HHH000412: Hibernate Core {5.2.16.Final}
+22:43:22:396 INFO  [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+22:43:22:440 INFO  [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+22:43:22:523 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+22:43:22:527 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+22:43:22:527 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+22:43:22:528 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+22:43:22:529 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+22:43:22:571 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+22:43:22:578 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79c97cb: startup date [Wed May 16 22:43:22 CEST 2018]; root of context hierarchy
+22:43:22:579 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+22:43:22:604 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+22:43:22:643 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+22:43:22:666 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+22:43:22:667 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+22:43:22:667 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+22:43:22:668 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+22:43:22:675 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+22:43:22:676 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+22:43:22:676 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+22:43:22:677 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+22:43:22:677 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+22:43:22:691 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+22:43:22:694 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@b978d10: startup date [Wed May 16 22:43:22 CEST 2018]; root of context hierarchy
+22:43:22:695 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+22:43:22:714 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+22:43:22:755 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+22:43:22:785 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+22:43:22:785 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+22:43:22:786 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+22:43:22:786 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+22:43:22:791 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+22:43:22:792 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+22:43:22:794 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+22:43:22:795 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+22:43:22:796 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+22:43:22:814 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+22:43:22:816 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@babafc2: startup date [Wed May 16 22:43:22 CEST 2018]; root of context hierarchy
+22:43:22:817 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+22:43:22:837 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+22:43:22:866 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+22:43:22:889 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+22:43:22:889 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+22:43:22:890 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+22:43:22:890 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+22:43:22:894 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+22:43:22:895 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+22:43:22:895 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+22:43:22:895 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+22:43:22:895 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+22:43:22:912 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+22:43:22:915 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@21337f7b: startup date [Wed May 16 22:43:22 CEST 2018]; root of context hierarchy
+22:43:22:916 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+22:43:22:938 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+22:43:22:980 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+22:43:23:014 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+22:43:23:015 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+22:43:23:015 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+22:43:23:015 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+22:43:23:022 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+22:43:23:022 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+22:43:23:023 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+22:43:23:023 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+22:43:23:023 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+22:43:23:040 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+22:43:23:042 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b88ca8c: startup date [Wed May 16 22:43:23 CEST 2018]; root of context hierarchy
+22:43:23:042 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+22:43:23:060 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+22:43:23:093 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+22:43:23:119 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+22:43:23:120 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+22:43:23:120 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+22:43:23:121 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+22:43:23:129 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+22:43:23:129 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+22:43:23:130 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+22:43:23:130 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+22:43:23:130 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+22:43:23:147 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23:32:01:892 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d554825: startup date [Wed May 16 23:32:01 CEST 2018]; root of context hierarchy
+23:32:01:977 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:32:02:245 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:32:02:516 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:32:02:661 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:32:02:662 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:32:02:678 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:32:02:700 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:32:02:794 INFO  [org.hibernate.Version:45] HHH000412: Hibernate Core {5.2.16.Final}
+23:32:02:796 INFO  [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+23:32:02:838 INFO  [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+23:32:02:921 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:32:02:925 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+23:32:02:926 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:32:02:926 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:32:02:928 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:32:02:968 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23:32:02:996 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79c97cb: startup date [Wed May 16 23:32:02 CEST 2018]; root of context hierarchy
+23:32:02:997 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:32:03:025 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:32:03:066 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:32:03:105 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:32:03:105 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:32:03:106 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:32:03:106 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:32:03:118 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:32:03:119 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+23:32:03:119 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:32:03:120 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:32:03:120 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:32:03:137 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23:32:03:141 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@b978d10: startup date [Wed May 16 23:32:03 CEST 2018]; root of context hierarchy
+23:32:03:144 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:32:03:189 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:32:03:246 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:32:03:306 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:32:03:309 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:32:03:311 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:32:03:312 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:32:03:331 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:32:03:332 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+23:32:03:334 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:32:03:335 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:32:03:337 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:32:03:354 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23:32:03:362 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@babafc2: startup date [Wed May 16 23:32:03 CEST 2018]; root of context hierarchy
+23:32:03:363 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:32:03:400 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:32:03:467 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:32:03:528 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:32:03:529 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:32:03:530 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:32:03:530 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:32:03:549 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:32:03:550 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+23:32:03:552 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:32:03:555 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:32:03:557 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:32:03:575 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23:32:03:579 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@21337f7b: startup date [Wed May 16 23:32:03 CEST 2018]; root of context hierarchy
+23:32:03:580 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:32:03:633 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:32:03:700 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:32:03:757 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:32:03:759 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:32:03:762 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:32:03:763 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:32:03:780 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:32:03:781 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+23:32:03:781 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:32:03:782 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:32:03:783 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:32:03:801 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23:32:03:809 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b88ca8c: startup date [Wed May 16 23:32:03 CEST 2018]; root of context hierarchy
+23:32:03:812 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:32:03:853 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:32:03:923 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:32:03:980 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:32:03:983 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:32:03:984 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:32:03:985 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:32:04:027 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:32:04:030 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+23:32:04:030 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:32:04:031 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:32:04:032 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:32:04:050 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23:35:12:278 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d554825: startup date [Wed May 16 23:35:12 CEST 2018]; root of context hierarchy
+23:35:12:380 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:35:12:567 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:35:12:924 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:35:13:053 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:35:13:056 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:35:13:082 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:35:13:103 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:35:13:189 INFO  [org.hibernate.Version:45] HHH000412: Hibernate Core {5.2.16.Final}
+23:35:13:191 INFO  [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+23:35:13:232 INFO  [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+23:35:13:317 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:35:13:326 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+23:35:13:327 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:35:13:327 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:35:13:329 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:35:13:371 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23:35:13:397 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79c97cb: startup date [Wed May 16 23:35:13 CEST 2018]; root of context hierarchy
+23:35:13:398 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:35:13:434 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:35:13:497 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:35:13:531 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:35:13:532 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:35:13:532 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:35:13:533 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:35:13:547 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:35:13:547 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+23:35:13:548 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:35:13:548 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:35:13:548 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:35:13:566 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23:35:13:571 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@b978d10: startup date [Wed May 16 23:35:13 CEST 2018]; root of context hierarchy
+23:35:13:572 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:35:13:604 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:35:13:668 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:35:13:715 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:35:13:717 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:35:13:719 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:35:13:720 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:35:13:734 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:35:13:735 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+23:35:13:736 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:35:13:737 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:35:13:737 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:35:13:755 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23:35:13:758 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@babafc2: startup date [Wed May 16 23:35:13 CEST 2018]; root of context hierarchy
+23:35:13:759 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:35:13:791 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:35:13:843 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:35:13:878 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:35:13:879 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:35:13:881 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:35:13:882 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:35:13:890 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:35:13:891 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+23:35:13:892 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:35:13:893 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:35:13:894 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:35:13:914 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23:35:13:919 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@21337f7b: startup date [Wed May 16 23:35:13 CEST 2018]; root of context hierarchy
+23:35:13:920 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:35:13:964 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:35:14:033 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:35:14:090 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:35:14:091 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:35:14:091 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:35:14:092 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:35:14:111 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:35:14:111 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+23:35:14:112 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:35:14:113 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:35:14:114 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:35:14:132 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23:35:14:136 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b88ca8c: startup date [Wed May 16 23:35:14 CEST 2018]; root of context hierarchy
+23:35:14:136 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:35:14:184 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:35:14:244 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:35:14:307 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:35:14:309 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:35:14:311 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:35:14:311 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:35:14:345 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:35:14:348 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+23:35:14:349 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:35:14:350 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:35:14:351 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:35:14:370 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23:43:05:978 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d554825: startup date [Wed May 16 23:43:05 CEST 2018]; root of context hierarchy
+23:43:06:066 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:43:06:253 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:43:06:608 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:43:06:760 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:43:06:762 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:43:06:784 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:43:06:806 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:43:06:889 INFO  [org.hibernate.Version:45] HHH000412: Hibernate Core {5.2.16.Final}
+23:43:06:891 INFO  [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+23:43:06:957 INFO  [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+23:43:07:072 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:43:07:076 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+23:43:07:077 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:43:07:077 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:43:07:079 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:43:07:128 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23:43:07:164 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79c97cb: startup date [Wed May 16 23:43:07 CEST 2018]; root of context hierarchy
+23:43:07:165 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:43:07:209 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:43:07:280 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:43:07:335 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:43:07:336 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:43:07:336 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:43:07:336 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:43:07:349 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:43:07:350 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+23:43:07:351 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:43:07:351 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:43:07:351 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:43:07:369 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23:43:07:372 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@b978d10: startup date [Wed May 16 23:43:07 CEST 2018]; root of context hierarchy
+23:43:07:373 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:43:07:413 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:43:07:483 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:43:07:539 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:43:07:539 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:43:07:540 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:43:07:541 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:43:07:553 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:43:07:555 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+23:43:07:557 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:43:07:559 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:43:07:559 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:43:07:577 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23:43:07:583 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@babafc2: startup date [Wed May 16 23:43:07 CEST 2018]; root of context hierarchy
+23:43:07:584 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:43:07:613 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:43:07:685 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:43:07:750 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:43:07:751 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:43:07:751 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:43:07:752 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:43:07:768 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:43:07:768 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+23:43:07:769 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:43:07:770 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:43:07:770 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:43:07:787 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23:43:07:790 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@21337f7b: startup date [Wed May 16 23:43:07 CEST 2018]; root of context hierarchy
+23:43:07:791 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:43:07:830 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:43:07:886 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:43:07:947 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:43:07:948 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:43:07:949 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:43:07:949 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:43:07:964 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:43:07:965 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+23:43:07:966 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:43:07:966 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:43:07:967 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:43:07:986 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23:43:07:993 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b88ca8c: startup date [Wed May 16 23:43:07 CEST 2018]; root of context hierarchy
+23:43:07:995 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:43:08:027 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:43:08:099 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:43:08:161 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:43:08:162 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:43:08:163 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:43:08:164 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:43:08:192 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:43:08:194 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DB_CLOSE_DELAY=-1;MVCC=TRUE]
+23:43:08:196 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:43:08:198 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:43:08:200 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:43:08:219 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23:44:25:762 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d554825: startup date [Wed May 16 23:44:25 CEST 2018]; root of context hierarchy
+23:44:25:836 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:44:25:984 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:44:26:223 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:44:26:371 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:44:26:372 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:44:26:393 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:44:26:418 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:44:26:496 INFO  [org.hibernate.Version:45] HHH000412: Hibernate Core {5.2.16.Final}
+23:44:26:501 INFO  [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+23:44:26:541 INFO  [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+23:44:26:624 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:44:26:628 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DVB_CLOSE_DELAY=-1;MVCC=TRUE]
+23:44:26:629 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:44:26:629 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:44:26:631 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:44:26:673 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23:44:26:696 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79c97cb: startup date [Wed May 16 23:44:26 CEST 2018]; root of context hierarchy
+23:44:26:697 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:44:26:731 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:44:26:784 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:44:26:812 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:44:26:813 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:44:26:813 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:44:26:813 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:44:26:819 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:44:26:820 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DVB_CLOSE_DELAY=-1;MVCC=TRUE]
+23:44:26:820 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:44:26:821 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:44:26:821 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:44:26:840 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23:44:26:844 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@b978d10: startup date [Wed May 16 23:44:26 CEST 2018]; root of context hierarchy
+23:44:26:844 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:44:26:866 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:44:26:910 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:44:26:948 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:44:26:949 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:44:26:949 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:44:26:950 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:44:26:960 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:44:26:962 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DVB_CLOSE_DELAY=-1;MVCC=TRUE]
+23:44:26:963 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:44:26:963 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:44:26:964 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:44:26:982 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23:44:26:985 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@babafc2: startup date [Wed May 16 23:44:26 CEST 2018]; root of context hierarchy
+23:44:26:986 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:44:27:011 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:44:27:043 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:44:27:065 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:44:27:066 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:44:27:067 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:44:27:067 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:44:27:074 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:44:27:074 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DVB_CLOSE_DELAY=-1;MVCC=TRUE]
+23:44:27:075 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:44:27:076 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:44:27:076 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:44:27:093 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23:44:27:095 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@21337f7b: startup date [Wed May 16 23:44:27 CEST 2018]; root of context hierarchy
+23:44:27:095 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:44:27:113 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:44:27:140 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:44:27:154 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:44:27:155 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:44:27:155 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:44:27:155 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:44:27:160 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:44:27:161 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DVB_CLOSE_DELAY=-1;MVCC=TRUE]
+23:44:27:161 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:44:27:161 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:44:27:162 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:44:27:178 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23:44:27:180 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b88ca8c: startup date [Wed May 16 23:44:27 CEST 2018]; root of context hierarchy
+23:44:27:180 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:44:27:194 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:44:27:214 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:44:27:231 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:44:27:231 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:44:27:232 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:44:27:232 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:44:27:244 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:44:27:245 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb;DVB_CLOSE_DELAY=-1;MVCC=TRUE]
+23:44:27:245 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:44:27:246 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:44:27:246 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:44:27:263 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23:45:24:642 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d554825: startup date [Wed May 16 23:45:24 CEST 2018]; root of context hierarchy
+23:45:24:707 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:45:24:863 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:45:25:089 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:45:25:241 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:45:25:242 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:45:25:259 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:45:25:275 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:45:25:330 INFO  [org.hibernate.Version:45] HHH000412: Hibernate Core {5.2.16.Final}
+23:45:25:331 INFO  [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+23:45:25:358 INFO  [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+23:45:25:420 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:45:25:424 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb]
+23:45:25:424 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:45:25:425 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:45:25:426 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:45:25:512 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+23:45:26:839 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:124] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+23:45:26:847 INFO  [org.hibernate.type.BasicTypeRegistry:148] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@616fe72b
+23:45:27:346 INFO  [org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl:47] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@41477a6d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+23:45:27:485 INFO  [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:394] Initialized JPA EntityManagerFactory for persistence unit 'CRM'
+23:57:03:132 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d554825: startup date [Wed May 16 23:57:03 CEST 2018]; root of context hierarchy
+23:57:03:196 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:57:03:358 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:57:03:591 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:57:03:737 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:57:03:738 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:57:03:754 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:57:03:770 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:57:03:826 INFO  [org.hibernate.Version:45] HHH000412: Hibernate Core {5.2.16.Final}
+23:57:03:827 INFO  [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+23:57:03:860 INFO  [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+23:57:03:923 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:57:03:926 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb]
+23:57:03:927 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:57:03:927 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:57:03:929 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:57:04:015 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+23:57:05:279 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:124] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+23:57:05:284 INFO  [org.hibernate.type.BasicTypeRegistry:148] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@616fe72b
+23:57:05:762 INFO  [org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl:47] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@41477a6d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+23:57:05:851 INFO  [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:394] Initialized JPA EntityManagerFactory for persistence unit 'CRM'
+23:58:01:517 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@163e4e87: startup date [Wed May 16 23:58:01 CEST 2018]; root of context hierarchy
+23:58:02:397 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:58:05:042 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:58:16:589 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d554825: startup date [Wed May 16 23:58:16 CEST 2018]; root of context hierarchy
+23:58:16:657 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:58:16:789 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:58:16:997 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:58:17:131 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:58:17:133 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:58:17:152 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:58:17:176 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:58:17:263 INFO  [org.hibernate.Version:45] HHH000412: Hibernate Core {5.2.16.Final}
+23:58:17:265 INFO  [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+23:58:17:310 INFO  [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+23:58:17:391 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:58:17:399 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb]
+23:58:17:400 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:58:17:400 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:58:17:402 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:58:17:519 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+23:58:18:853 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:124] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+23:58:18:859 INFO  [org.hibernate.type.BasicTypeRegistry:148] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@616fe72b
+23:58:19:323 INFO  [org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl:47] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@41477a6d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+23:58:19:423 INFO  [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:394] Initialized JPA EntityManagerFactory for persistence unit 'CRM'
+23:58:42:273 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@163e4e87: startup date [Wed May 16 23:58:42 CEST 2018]; root of context hierarchy
+23:58:42:377 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:58:42:549 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:58:42:791 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:58:42:961 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader:349] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [persistence.xml]
+23:58:42:963 INFO  [org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager:514] Found explicit default unit with name 'CRM' in persistence.xml - overriding local default unit settings ('packagesToScan'/'mappingResources')
+23:58:42:985 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:361] Building JPA container EntityManagerFactory for persistence unit 'CRM'
+23:58:43:011 INFO  [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [
+	name: CRM
+	...]
+23:58:43:100 INFO  [org.hibernate.Version:45] HHH000412: Hibernate Core {5.2.16.Final}
+23:58:43:102 INFO  [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+23:58:43:142 INFO  [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+23:58:43:218 WARN  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:73] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23:58:43:222 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:129] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://192.168.178.25:5432/fabthechemistdb]
+23:58:43:223 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:138] HHH10001001: Connection properties: {user=postgres}
+23:58:43:223 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:143] HHH10001003: Autocommit mode: false
+23:58:43:225 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections:281] HHH000115: Hibernate connection pool size: 20 (min=1)
+23:58:43:349 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+23:58:44:652 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:124] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+23:58:44:659 INFO  [org.hibernate.type.BasicTypeRegistry:148] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@215a34b4
+23:58:45:161 INFO  [org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl:47] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@29fd8e67] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+23:58:45:281 INFO  [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:394] Initialized JPA EntityManagerFactory for persistence unit 'CRM'

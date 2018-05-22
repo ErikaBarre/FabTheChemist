@@ -3,6 +3,8 @@ package fab.chemist.db.framework.service.interf;
 import java.io.Serializable;
 import java.util.List;
 
+import javax.persistence.Entity;
+
 /**
  * There is no WRITE access into the database.
  */
@@ -21,6 +23,6 @@ public interface IImmutableGenericService <E extends Serializable, KEY extends S
 	 */
 	List<E> findAll();
 	
-	Long getRowCount();
+	Long getRowCount(Entity entity);
 
 }

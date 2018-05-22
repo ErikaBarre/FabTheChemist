@@ -3,6 +3,8 @@ package fab.chemist.db.framework.dao.interf;
 import java.io.Serializable;
 import java.util.List;
 
+import javax.persistence.Entity;
+
 import org.hibernate.LockOptions;
 
 /**
@@ -35,6 +37,6 @@ public interface IImmutableGenericDAO <T extends Serializable, KEY extends Seria
      */
     List<T> findAll();
     
-	public Long getRowCount();
+    Long getRowCount(Entity entity);
 
 }

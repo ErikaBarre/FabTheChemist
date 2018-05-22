@@ -79,20 +79,28 @@
 			<version>1.6</version>
 		</dependency>
 
-		<dependency>
+<!-- 		<dependency>
 			<groupId>javax.persistence</groupId>
 			<artifactId>persistence-api</artifactId>
-			<version>1.0</version>
+			<version>1.0.2</version>
+		</dependency> -->
+
+		<dependency>
+		    <groupId>javax</groupId>
+		    <artifactId>javaee-api</artifactId>
+		    <version>8.0</version>
+		    <scope>provided</scope>
 		</dependency>
+
 
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
 			<version>5.2.16.Final</version>
 		</dependency>
+		
 
-		<!-- <dependency> <groupId>org.hibernate</groupId> <artifactId>hibernate-annotations</artifactId> 
-			<version>3.4.0.GA</version> </dependency> -->
+
 		<dependency>
 			<groupId>org.jboss.logging</groupId>
 			<artifactId>jboss-logging</artifactId>
@@ -137,7 +145,7 @@
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-remoting</artifactId>
-			<version>5.0.0.RELEASE</version>
+			<version>5.0.5.RELEASE</version>
 		</dependency>
 
 		<!-- Jackson JSON -->
@@ -155,6 +163,12 @@
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 			<version>${jackson.version}</version>
+		</dependency>
+	
+	<dependency>
+		    <groupId>javax.annotation</groupId>
+		    <artifactId>javax.annotation-api</artifactId>
+		    <version>1.3.2</version>
 		</dependency>
 	
 

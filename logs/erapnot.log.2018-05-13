@@ -1,0 +1,1480 @@
+20:41:08:188 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d554825: startup date [Sun May 13 20:41:08 CEST 2018]; root of context hierarchy
+20:41:08:303 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-activiti.xml]
+20:41:08:534 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+20:41:08:903 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:41:09:254 INFO  [org.hibernate.Version:45] HHH000412: Hibernate Core {5.2.16.Final}
+20:41:09:256 INFO  [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+20:41:09:277 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+20:41:09:486 INFO  [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+20:41:12:832 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:132] HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+20:41:12:869 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+20:41:12:896 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:63] HHH000422: Disabling contextual LOB creation as connection was null
+20:41:13:077 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring-config-db-activiti.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not determine type for: fab.chemist.dbsql.orm.impl.URL, at table: Contact, for columns: [org.hibernate.mapping.Column(website)]
+20:41:13:084 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7a791b66: startup date [Sun May 13 20:41:13 CEST 2018]; root of context hierarchy
+20:41:13:085 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-activiti.xml]
+20:41:13:107 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+20:41:13:136 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:41:13:180 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+20:41:15:894 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:132] HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+20:41:15:895 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+20:41:15:897 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:63] HHH000422: Disabling contextual LOB creation as connection was null
+20:41:15:904 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring-config-db-activiti.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not determine type for: fab.chemist.dbsql.orm.impl.URL, at table: Contact, for columns: [org.hibernate.mapping.Column(website)]
+20:41:15:905 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@292d1c71: startup date [Sun May 13 20:41:15 CEST 2018]; root of context hierarchy
+20:41:15:905 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-activiti.xml]
+20:41:15:920 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+20:41:15:945 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:41:15:970 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+20:41:18:965 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:132] HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+20:41:18:966 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+20:41:18:967 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:63] HHH000422: Disabling contextual LOB creation as connection was null
+20:41:18:976 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring-config-db-activiti.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not determine type for: fab.chemist.dbsql.orm.impl.URL, at table: Contact, for columns: [org.hibernate.mapping.Column(website)]
+20:41:18:977 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@30ea8c23: startup date [Sun May 13 20:41:18 CEST 2018]; root of context hierarchy
+20:41:18:978 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-activiti.xml]
+20:41:19:003 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+20:41:19:051 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:41:19:122 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+20:41:22:038 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:132] HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+20:41:22:039 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+20:41:22:040 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:63] HHH000422: Disabling contextual LOB creation as connection was null
+20:41:22:050 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring-config-db-activiti.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not determine type for: fab.chemist.dbsql.orm.impl.URL, at table: Contact, for columns: [org.hibernate.mapping.Column(website)]
+20:41:22:052 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4a8ab068: startup date [Sun May 13 20:41:22 CEST 2018]; root of context hierarchy
+20:41:22:053 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-activiti.xml]
+20:41:22:076 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+20:41:22:119 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:41:22:174 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+20:41:25:110 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:132] HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+20:41:25:111 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+20:41:25:113 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:63] HHH000422: Disabling contextual LOB creation as connection was null
+20:41:25:128 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring-config-db-activiti.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not determine type for: fab.chemist.dbsql.orm.impl.URL, at table: Contact, for columns: [org.hibernate.mapping.Column(website)]
+20:41:25:131 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23a9ba52: startup date [Sun May 13 20:41:25 CEST 2018]; root of context hierarchy
+20:41:25:131 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-activiti.xml]
+20:41:25:147 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+20:41:25:173 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:41:25:205 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+20:41:28:182 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:132] HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+20:41:28:183 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+20:41:28:184 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:63] HHH000422: Disabling contextual LOB creation as connection was null
+20:41:28:198 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring-config-db-activiti.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not determine type for: fab.chemist.dbsql.orm.impl.URL, at table: Contact, for columns: [org.hibernate.mapping.Column(website)]
+20:42:41:998 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d554825: startup date [Sun May 13 20:42:41 CEST 2018]; root of context hierarchy
+20:42:42:079 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+20:42:42:235 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+20:42:42:439 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:42:42:643 INFO  [org.hibernate.Version:45] HHH000412: Hibernate Core {5.2.16.Final}
+20:42:42:644 INFO  [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+20:42:42:656 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+20:42:42:766 INFO  [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+20:42:45:981 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:132] HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+20:42:45:992 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+20:42:46:006 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:63] HHH000422: Disabling contextual LOB creation as connection was null
+20:42:46:147 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not determine type for: fab.chemist.dbsql.orm.impl.URL, at table: Contact, for columns: [org.hibernate.mapping.Column(website)]
+20:42:46:153 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7a791b66: startup date [Sun May 13 20:42:46 CEST 2018]; root of context hierarchy
+20:42:46:153 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+20:42:46:172 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+20:42:46:202 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:42:46:231 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+20:42:49:045 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:132] HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+20:42:49:046 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+20:42:49:047 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:63] HHH000422: Disabling contextual LOB creation as connection was null
+20:42:49:066 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not determine type for: fab.chemist.dbsql.orm.impl.URL, at table: Contact, for columns: [org.hibernate.mapping.Column(website)]
+20:42:49:068 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@292d1c71: startup date [Sun May 13 20:42:49 CEST 2018]; root of context hierarchy
+20:42:49:068 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+20:42:49:099 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+20:42:49:161 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:42:49:233 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+20:42:52:118 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:132] HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+20:42:52:119 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+20:42:52:119 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:63] HHH000422: Disabling contextual LOB creation as connection was null
+20:42:52:126 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not determine type for: fab.chemist.dbsql.orm.impl.URL, at table: Contact, for columns: [org.hibernate.mapping.Column(website)]
+20:42:52:128 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@30ea8c23: startup date [Sun May 13 20:42:52 CEST 2018]; root of context hierarchy
+20:42:52:129 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+20:42:52:149 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+20:42:52:191 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:42:52:248 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+20:42:55:190 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:132] HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+20:42:55:191 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+20:42:55:193 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:63] HHH000422: Disabling contextual LOB creation as connection was null
+20:42:55:212 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not determine type for: fab.chemist.dbsql.orm.impl.URL, at table: Contact, for columns: [org.hibernate.mapping.Column(website)]
+20:42:55:218 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4a8ab068: startup date [Sun May 13 20:42:55 CEST 2018]; root of context hierarchy
+20:42:55:220 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+20:42:55:246 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+20:42:55:280 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:42:55:325 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+20:42:58:262 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:132] HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+20:42:58:263 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+20:42:58:265 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:63] HHH000422: Disabling contextual LOB creation as connection was null
+20:42:58:284 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not determine type for: fab.chemist.dbsql.orm.impl.URL, at table: Contact, for columns: [org.hibernate.mapping.Column(website)]
+20:42:58:290 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23a9ba52: startup date [Sun May 13 20:42:58 CEST 2018]; root of context hierarchy
+20:42:58:291 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+20:42:58:309 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+20:42:58:338 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:42:58:372 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+20:43:01:333 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:132] HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+20:43:01:334 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+20:43:01:335 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:63] HHH000422: Disabling contextual LOB creation as connection was null
+20:43:01:341 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not determine type for: fab.chemist.dbsql.orm.impl.URL, at table: Contact, for columns: [org.hibernate.mapping.Column(website)]
+20:44:11:626 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d554825: startup date [Sun May 13 20:44:11 CEST 2018]; root of context hierarchy
+20:44:11:696 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+20:44:11:843 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+20:44:12:094 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:44:12:372 INFO  [org.hibernate.Version:45] HHH000412: Hibernate Core {5.2.16.Final}
+20:44:12:373 INFO  [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+20:44:12:389 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+20:44:12:532 INFO  [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+20:44:15:773 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:132] HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+20:44:15:786 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+20:44:15:800 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:63] HHH000422: Disabling contextual LOB creation as connection was null
+20:44:15:946 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not determine type for: fab.chemist.dbsql.orm.impl.URL, at table: Contact, for columns: [org.hibernate.mapping.Column(website)]
+20:44:15:955 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7a791b66: startup date [Sun May 13 20:44:15 CEST 2018]; root of context hierarchy
+20:44:15:955 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+20:44:15:978 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+20:44:16:028 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:44:16:072 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+20:44:18:838 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:132] HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+20:44:18:839 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+20:44:18:842 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:63] HHH000422: Disabling contextual LOB creation as connection was null
+20:44:18:862 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not determine type for: fab.chemist.dbsql.orm.impl.URL, at table: Contact, for columns: [org.hibernate.mapping.Column(website)]
+20:44:18:866 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@292d1c71: startup date [Sun May 13 20:44:18 CEST 2018]; root of context hierarchy
+20:44:18:866 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+20:44:18:888 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+20:44:18:922 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:44:18:964 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+20:44:21:909 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:132] HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+20:44:21:910 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+20:44:21:912 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:63] HHH000422: Disabling contextual LOB creation as connection was null
+20:44:21:920 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not determine type for: fab.chemist.dbsql.orm.impl.URL, at table: Contact, for columns: [org.hibernate.mapping.Column(website)]
+20:44:21:922 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@30ea8c23: startup date [Sun May 13 20:44:21 CEST 2018]; root of context hierarchy
+20:44:21:922 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+20:44:21:943 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+20:44:21:990 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:44:22:043 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+20:44:24:985 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:132] HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+20:44:24:986 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+20:44:24:987 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:63] HHH000422: Disabling contextual LOB creation as connection was null
+20:44:24:999 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not determine type for: fab.chemist.dbsql.orm.impl.URL, at table: Contact, for columns: [org.hibernate.mapping.Column(website)]
+20:44:25:002 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4a8ab068: startup date [Sun May 13 20:44:25 CEST 2018]; root of context hierarchy
+20:44:25:003 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+20:44:25:025 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+20:44:25:072 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:44:25:151 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+20:44:28:054 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:132] HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+20:44:28:055 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+20:44:28:057 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:63] HHH000422: Disabling contextual LOB creation as connection was null
+20:44:28:075 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not determine type for: fab.chemist.dbsql.orm.impl.URL, at table: Contact, for columns: [org.hibernate.mapping.Column(website)]
+20:44:28:078 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23a9ba52: startup date [Sun May 13 20:44:28 CEST 2018]; root of context hierarchy
+20:44:28:079 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+20:44:28:099 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+20:44:28:127 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:44:28:164 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+20:44:31:126 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:132] HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+20:44:31:127 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+20:44:31:129 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:63] HHH000422: Disabling contextual LOB creation as connection was null
+20:44:31:143 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring-config-db-test.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not determine type for: fab.chemist.dbsql.orm.impl.URL, at table: Contact, for columns: [org.hibernate.mapping.Column(website)]
+22:43:05:623 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d554825: startup date [Sun May 13 22:43:05 CEST 2018]; root of context hierarchy
+22:43:05:699 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+22:43:05:858 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+22:43:06:145 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+22:43:06:453 INFO  [org.hibernate.Version:45] HHH000412: Hibernate Core {5.2.16.Final}
+22:43:06:455 INFO  [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+22:43:06:471 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+22:43:06:630 INFO  [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+22:43:09:857 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:132] HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+22:43:09:884 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+22:43:09:901 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:63] HHH000422: Disabling contextual LOB creation as connection was null
+22:43:12:919 ERROR [org.hibernate.hql.spi.id.IdTableHelper:105] Unable obtain JDBC Connection
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.SessionFactoryImpl$1.obtainConnection(SessionFactoryImpl.java:427)
+	at org.hibernate.hql.spi.id.IdTableHelper.executeIdTableCreationStatements(IdTableHelper.java:67)
+	at org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy.finishPreparation(GlobalTemporaryTableBulkIdStrategy.java:125)
+	at org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy.finishPreparation(GlobalTemporaryTableBulkIdStrategy.java:42)
+	at org.hibernate.hql.spi.id.AbstractMultiTableBulkIdStrategyImpl.prepare(AbstractMultiTableBulkIdStrategyImpl.java:88)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:305)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:460)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:535)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:741)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:144)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:95)
+	at fab.chemist.dbsql.test.utils.JunitUtils.loadContext(JunitUtils.java:22)
+	at fab.chemist.dbsql.test.connectDb.ProductsTest.init(ProductsTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: org.postgresql.util.PSQLException: La tentative de connexion a échoué.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:272)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:52)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:216)
+	at org.postgresql.Driver.makeConnection(Driver.java:404)
+	at org.postgresql.Driver.connect(Driver.java:272)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 51 more
+Caused by: java.net.NoRouteToHostException: Aucun chemin d'accès pour atteindre l'hôte cible (Host unreachable)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:61)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:144)
+	... 59 more
+22:43:12:930 ERROR [org.hibernate.internal.SessionFactoryImpl:981] HHH000302: Unable to construct current session context [org.springframework.orm.hibernate4.SpringSessionContext]
+org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [org.springframework.orm.hibernate4.SpringSessionContext]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:348)
+	at org.hibernate.internal.SessionFactoryImpl.buildCurrentSessionContext(SessionFactoryImpl.java:975)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:319)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:460)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:535)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:741)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:144)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:95)
+	at fab.chemist.dbsql.test.utils.JunitUtils.loadContext(JunitUtils.java:22)
+	at fab.chemist.dbsql.test.connectDb.ProductsTest.init(ProductsTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: java.lang.ClassNotFoundException: Could not load requested class : org.springframework.orm.hibernate4.SpringSessionContext
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl$AggregatedClassLoader.findClass(ClassLoaderServiceImpl.java:336)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:345)
+	... 45 more
+22:43:12:981 INFO  [org.springframework.orm.hibernate5.HibernateTransactionManager:378] Using DataSource [org.apache.commons.dbcp.BasicDataSource@34123d65] of Hibernate SessionFactory for HibernateTransactionManager
+22:43:13:000 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productsDao': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'CRM' available
+22:43:13:006 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1e34c607: startup date [Sun May 13 22:43:13 CEST 2018]; root of context hierarchy
+22:43:13:007 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+22:43:13:044 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+22:43:13:091 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+22:43:13:138 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+22:43:15:990 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:132] HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+22:43:15:991 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+22:43:15:995 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:63] HHH000422: Disabling contextual LOB creation as connection was null
+22:43:19:062 ERROR [org.hibernate.hql.spi.id.IdTableHelper:105] Unable obtain JDBC Connection
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.SessionFactoryImpl$1.obtainConnection(SessionFactoryImpl.java:427)
+	at org.hibernate.hql.spi.id.IdTableHelper.executeIdTableCreationStatements(IdTableHelper.java:67)
+	at org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy.finishPreparation(GlobalTemporaryTableBulkIdStrategy.java:125)
+	at org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy.finishPreparation(GlobalTemporaryTableBulkIdStrategy.java:42)
+	at org.hibernate.hql.spi.id.AbstractMultiTableBulkIdStrategyImpl.prepare(AbstractMultiTableBulkIdStrategyImpl.java:88)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:305)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:460)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:535)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:741)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:144)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:95)
+	at fab.chemist.dbsql.test.utils.JunitUtils.loadContext(JunitUtils.java:22)
+	at fab.chemist.dbsql.test.connectDb.ProductsTest.init(ProductsTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: org.postgresql.util.PSQLException: La tentative de connexion a échoué.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:272)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:52)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:216)
+	at org.postgresql.Driver.makeConnection(Driver.java:404)
+	at org.postgresql.Driver.connect(Driver.java:272)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 51 more
+Caused by: java.net.NoRouteToHostException: Aucun chemin d'accès pour atteindre l'hôte cible (Host unreachable)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:61)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:144)
+	... 59 more
+22:43:19:066 ERROR [org.hibernate.internal.SessionFactoryImpl:981] HHH000302: Unable to construct current session context [org.springframework.orm.hibernate4.SpringSessionContext]
+org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [org.springframework.orm.hibernate4.SpringSessionContext]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:348)
+	at org.hibernate.internal.SessionFactoryImpl.buildCurrentSessionContext(SessionFactoryImpl.java:975)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:319)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:460)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:535)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:741)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:144)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:95)
+	at fab.chemist.dbsql.test.utils.JunitUtils.loadContext(JunitUtils.java:22)
+	at fab.chemist.dbsql.test.connectDb.ProductsTest.init(ProductsTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: java.lang.ClassNotFoundException: Could not load requested class : org.springframework.orm.hibernate4.SpringSessionContext
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl$AggregatedClassLoader.findClass(ClassLoaderServiceImpl.java:336)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:345)
+	... 45 more
+22:43:19:105 INFO  [org.springframework.orm.hibernate5.HibernateTransactionManager:378] Using DataSource [org.apache.commons.dbcp.BasicDataSource@6b530eb9] of Hibernate SessionFactory for HibernateTransactionManager
+22:43:19:110 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productsDao': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'CRM' available
+22:43:19:112 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5b69d40d: startup date [Sun May 13 22:43:19 CEST 2018]; root of context hierarchy
+22:43:19:113 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+22:43:19:130 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+22:43:19:155 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+22:43:19:188 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+22:43:22:134 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:132] HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+22:43:22:135 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+22:43:22:137 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:63] HHH000422: Disabling contextual LOB creation as connection was null
+22:43:25:206 ERROR [org.hibernate.hql.spi.id.IdTableHelper:105] Unable obtain JDBC Connection
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.SessionFactoryImpl$1.obtainConnection(SessionFactoryImpl.java:427)
+	at org.hibernate.hql.spi.id.IdTableHelper.executeIdTableCreationStatements(IdTableHelper.java:67)
+	at org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy.finishPreparation(GlobalTemporaryTableBulkIdStrategy.java:125)
+	at org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy.finishPreparation(GlobalTemporaryTableBulkIdStrategy.java:42)
+	at org.hibernate.hql.spi.id.AbstractMultiTableBulkIdStrategyImpl.prepare(AbstractMultiTableBulkIdStrategyImpl.java:88)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:305)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:460)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:535)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:741)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:144)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:95)
+	at fab.chemist.dbsql.test.utils.JunitUtils.loadContext(JunitUtils.java:22)
+	at fab.chemist.dbsql.test.connectDb.ProductsTest.init(ProductsTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: org.postgresql.util.PSQLException: La tentative de connexion a échoué.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:272)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:52)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:216)
+	at org.postgresql.Driver.makeConnection(Driver.java:404)
+	at org.postgresql.Driver.connect(Driver.java:272)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 51 more
+Caused by: java.net.NoRouteToHostException: Aucun chemin d'accès pour atteindre l'hôte cible (Host unreachable)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:61)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:144)
+	... 59 more
+22:43:25:210 ERROR [org.hibernate.internal.SessionFactoryImpl:981] HHH000302: Unable to construct current session context [org.springframework.orm.hibernate4.SpringSessionContext]
+org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [org.springframework.orm.hibernate4.SpringSessionContext]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:348)
+	at org.hibernate.internal.SessionFactoryImpl.buildCurrentSessionContext(SessionFactoryImpl.java:975)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:319)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:460)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:535)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:741)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:144)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:95)
+	at fab.chemist.dbsql.test.utils.JunitUtils.loadContext(JunitUtils.java:22)
+	at fab.chemist.dbsql.test.connectDb.ProductsTest.init(ProductsTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: java.lang.ClassNotFoundException: Could not load requested class : org.springframework.orm.hibernate4.SpringSessionContext
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl$AggregatedClassLoader.findClass(ClassLoaderServiceImpl.java:336)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:345)
+	... 45 more
+22:43:25:242 INFO  [org.springframework.orm.hibernate5.HibernateTransactionManager:378] Using DataSource [org.apache.commons.dbcp.BasicDataSource@1f14f20c] of Hibernate SessionFactory for HibernateTransactionManager
+22:43:25:249 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productsDao': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'CRM' available
+22:43:25:251 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2e6ba49a: startup date [Sun May 13 22:43:25 CEST 2018]; root of context hierarchy
+22:43:25:252 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+22:43:25:284 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+22:43:25:335 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+22:43:25:374 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+22:43:28:278 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:132] HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+22:43:28:279 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+22:43:28:280 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:63] HHH000422: Disabling contextual LOB creation as connection was null
+22:43:31:350 ERROR [org.hibernate.hql.spi.id.IdTableHelper:105] Unable obtain JDBC Connection
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.SessionFactoryImpl$1.obtainConnection(SessionFactoryImpl.java:427)
+	at org.hibernate.hql.spi.id.IdTableHelper.executeIdTableCreationStatements(IdTableHelper.java:67)
+	at org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy.finishPreparation(GlobalTemporaryTableBulkIdStrategy.java:125)
+	at org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy.finishPreparation(GlobalTemporaryTableBulkIdStrategy.java:42)
+	at org.hibernate.hql.spi.id.AbstractMultiTableBulkIdStrategyImpl.prepare(AbstractMultiTableBulkIdStrategyImpl.java:88)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:305)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:460)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:535)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:741)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:144)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:95)
+	at fab.chemist.dbsql.test.utils.JunitUtils.loadContext(JunitUtils.java:22)
+	at fab.chemist.dbsql.test.connectDb.ProductsTest.init(ProductsTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: org.postgresql.util.PSQLException: La tentative de connexion a échoué.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:272)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:52)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:216)
+	at org.postgresql.Driver.makeConnection(Driver.java:404)
+	at org.postgresql.Driver.connect(Driver.java:272)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 51 more
+Caused by: java.net.NoRouteToHostException: Aucun chemin d'accès pour atteindre l'hôte cible (Host unreachable)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:61)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:144)
+	... 59 more
+22:43:31:353 ERROR [org.hibernate.internal.SessionFactoryImpl:981] HHH000302: Unable to construct current session context [org.springframework.orm.hibernate4.SpringSessionContext]
+org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [org.springframework.orm.hibernate4.SpringSessionContext]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:348)
+	at org.hibernate.internal.SessionFactoryImpl.buildCurrentSessionContext(SessionFactoryImpl.java:975)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:319)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:460)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:535)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:741)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:144)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:95)
+	at fab.chemist.dbsql.test.utils.JunitUtils.loadContext(JunitUtils.java:22)
+	at fab.chemist.dbsql.test.connectDb.ProductsTest.init(ProductsTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: java.lang.ClassNotFoundException: Could not load requested class : org.springframework.orm.hibernate4.SpringSessionContext
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl$AggregatedClassLoader.findClass(ClassLoaderServiceImpl.java:336)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:345)
+	... 45 more
+22:43:31:389 INFO  [org.springframework.orm.hibernate5.HibernateTransactionManager:378] Using DataSource [org.apache.commons.dbcp.BasicDataSource@28952dea] of Hibernate SessionFactory for HibernateTransactionManager
+22:43:31:394 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productsDao': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'CRM' available
+22:43:31:396 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d847d32: startup date [Sun May 13 22:43:31 CEST 2018]; root of context hierarchy
+22:43:31:397 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+22:43:31:410 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+22:43:31:431 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+22:43:31:455 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+22:43:34:426 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:132] HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+22:43:34:427 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+22:43:34:428 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:63] HHH000422: Disabling contextual LOB creation as connection was null
+22:43:37:494 ERROR [org.hibernate.hql.spi.id.IdTableHelper:105] Unable obtain JDBC Connection
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.SessionFactoryImpl$1.obtainConnection(SessionFactoryImpl.java:427)
+	at org.hibernate.hql.spi.id.IdTableHelper.executeIdTableCreationStatements(IdTableHelper.java:67)
+	at org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy.finishPreparation(GlobalTemporaryTableBulkIdStrategy.java:125)
+	at org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy.finishPreparation(GlobalTemporaryTableBulkIdStrategy.java:42)
+	at org.hibernate.hql.spi.id.AbstractMultiTableBulkIdStrategyImpl.prepare(AbstractMultiTableBulkIdStrategyImpl.java:88)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:305)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:460)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:535)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:741)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:144)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:95)
+	at fab.chemist.dbsql.test.utils.JunitUtils.loadContext(JunitUtils.java:22)
+	at fab.chemist.dbsql.test.connectDb.ProductsTest.init(ProductsTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: org.postgresql.util.PSQLException: La tentative de connexion a échoué.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:272)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:52)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:216)
+	at org.postgresql.Driver.makeConnection(Driver.java:404)
+	at org.postgresql.Driver.connect(Driver.java:272)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 51 more
+Caused by: java.net.NoRouteToHostException: Aucun chemin d'accès pour atteindre l'hôte cible (Host unreachable)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:61)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:144)
+	... 59 more
+22:43:37:500 ERROR [org.hibernate.internal.SessionFactoryImpl:981] HHH000302: Unable to construct current session context [org.springframework.orm.hibernate4.SpringSessionContext]
+org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [org.springframework.orm.hibernate4.SpringSessionContext]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:348)
+	at org.hibernate.internal.SessionFactoryImpl.buildCurrentSessionContext(SessionFactoryImpl.java:975)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:319)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:460)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:535)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:741)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:144)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:95)
+	at fab.chemist.dbsql.test.utils.JunitUtils.loadContext(JunitUtils.java:22)
+	at fab.chemist.dbsql.test.connectDb.ProductsTest.init(ProductsTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: java.lang.ClassNotFoundException: Could not load requested class : org.springframework.orm.hibernate4.SpringSessionContext
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl$AggregatedClassLoader.findClass(ClassLoaderServiceImpl.java:336)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:345)
+	... 45 more
+22:43:37:530 INFO  [org.springframework.orm.hibernate5.HibernateTransactionManager:378] Using DataSource [org.apache.commons.dbcp.BasicDataSource@278f8425] of Hibernate SessionFactory for HibernateTransactionManager
+22:43:37:537 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productsDao': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'CRM' available
+22:43:37:540 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d195ee4: startup date [Sun May 13 22:43:37 CEST 2018]; root of context hierarchy
+22:43:37:541 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+22:43:37:569 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+22:43:37:622 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+22:43:37:683 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+22:43:40:566 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:132] HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+22:43:40:567 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+22:43:40:569 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:63] HHH000422: Disabling contextual LOB creation as connection was null
+22:43:43:638 ERROR [org.hibernate.hql.spi.id.IdTableHelper:105] Unable obtain JDBC Connection
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (La tentative de connexion a échoué.)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.SessionFactoryImpl$1.obtainConnection(SessionFactoryImpl.java:427)
+	at org.hibernate.hql.spi.id.IdTableHelper.executeIdTableCreationStatements(IdTableHelper.java:67)
+	at org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy.finishPreparation(GlobalTemporaryTableBulkIdStrategy.java:125)
+	at org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy.finishPreparation(GlobalTemporaryTableBulkIdStrategy.java:42)
+	at org.hibernate.hql.spi.id.AbstractMultiTableBulkIdStrategyImpl.prepare(AbstractMultiTableBulkIdStrategyImpl.java:88)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:305)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:460)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:535)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:741)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:144)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:95)
+	at fab.chemist.dbsql.test.utils.JunitUtils.loadContext(JunitUtils.java:22)
+	at fab.chemist.dbsql.test.connectDb.ProductsTest.init(ProductsTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: org.postgresql.util.PSQLException: La tentative de connexion a échoué.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:272)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:52)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:216)
+	at org.postgresql.Driver.makeConnection(Driver.java:404)
+	at org.postgresql.Driver.connect(Driver.java:272)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 51 more
+Caused by: java.net.NoRouteToHostException: Aucun chemin d'accès pour atteindre l'hôte cible (Host unreachable)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:61)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:144)
+	... 59 more
+22:43:43:643 ERROR [org.hibernate.internal.SessionFactoryImpl:981] HHH000302: Unable to construct current session context [org.springframework.orm.hibernate4.SpringSessionContext]
+org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [org.springframework.orm.hibernate4.SpringSessionContext]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:348)
+	at org.hibernate.internal.SessionFactoryImpl.buildCurrentSessionContext(SessionFactoryImpl.java:975)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:319)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:460)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:535)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:741)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:144)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:95)
+	at fab.chemist.dbsql.test.utils.JunitUtils.loadContext(JunitUtils.java:22)
+	at fab.chemist.dbsql.test.connectDb.ProductsTest.init(ProductsTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: java.lang.ClassNotFoundException: Could not load requested class : org.springframework.orm.hibernate4.SpringSessionContext
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl$AggregatedClassLoader.findClass(ClassLoaderServiceImpl.java:336)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:345)
+	... 45 more
+22:43:43:653 INFO  [org.springframework.orm.hibernate5.HibernateTransactionManager:378] Using DataSource [org.apache.commons.dbcp.BasicDataSource@417d6615] of Hibernate SessionFactory for HibernateTransactionManager
+22:43:43:656 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productsDao': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'CRM' available
+23:41:18:628 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d554825: startup date [Sun May 13 23:41:18 CEST 2018]; root of context hierarchy
+23:41:18:722 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:41:18:930 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:41:19:266 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:41:19:519 INFO  [org.hibernate.Version:45] HHH000412: Hibernate Core {5.2.16.Final}
+23:41:19:520 INFO  [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+23:41:19:536 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+23:41:19:688 INFO  [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+23:41:19:958 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+23:41:21:322 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:124] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+23:41:21:690 ERROR [org.hibernate.internal.SessionFactoryImpl:981] HHH000302: Unable to construct current session context [org.springframework.orm.hibernate4.SpringSessionContext]
+org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [org.springframework.orm.hibernate4.SpringSessionContext]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:348)
+	at org.hibernate.internal.SessionFactoryImpl.buildCurrentSessionContext(SessionFactoryImpl.java:975)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:319)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:460)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:535)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:741)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:144)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:95)
+	at fab.chemist.dbsql.test.utils.JunitUtils.loadContext(JunitUtils.java:22)
+	at fab.chemist.dbsql.test.connectDb.ProductsTest.init(ProductsTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: java.lang.ClassNotFoundException: Could not load requested class : org.springframework.orm.hibernate4.SpringSessionContext
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl$AggregatedClassLoader.findClass(ClassLoaderServiceImpl.java:336)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:345)
+	... 45 more
+23:41:21:776 INFO  [org.springframework.orm.hibernate5.HibernateTransactionManager:378] Using DataSource [org.apache.commons.dbcp.BasicDataSource@34123d65] of Hibernate SessionFactory for HibernateTransactionManager
+23:41:21:813 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productsDao': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'CRM' available
+23:41:21:824 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@a567e72: startup date [Sun May 13 23:41:21 CEST 2018]; root of context hierarchy
+23:41:21:825 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:41:21:886 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:41:21:951 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:41:22:022 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+23:41:22:131 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+23:41:23:381 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:124] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+23:41:23:403 ERROR [org.hibernate.internal.SessionFactoryImpl:981] HHH000302: Unable to construct current session context [org.springframework.orm.hibernate4.SpringSessionContext]
+org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [org.springframework.orm.hibernate4.SpringSessionContext]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:348)
+	at org.hibernate.internal.SessionFactoryImpl.buildCurrentSessionContext(SessionFactoryImpl.java:975)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:319)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:460)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:535)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:741)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:144)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:95)
+	at fab.chemist.dbsql.test.utils.JunitUtils.loadContext(JunitUtils.java:22)
+	at fab.chemist.dbsql.test.connectDb.ProductsTest.init(ProductsTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: java.lang.ClassNotFoundException: Could not load requested class : org.springframework.orm.hibernate4.SpringSessionContext
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl$AggregatedClassLoader.findClass(ClassLoaderServiceImpl.java:336)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:345)
+	... 45 more
+23:41:23:422 INFO  [org.springframework.orm.hibernate5.HibernateTransactionManager:378] Using DataSource [org.apache.commons.dbcp.BasicDataSource@30135202] of Hibernate SessionFactory for HibernateTransactionManager
+23:41:23:425 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productsDao': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'CRM' available
+23:41:23:429 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@46678e49: startup date [Sun May 13 23:41:23 CEST 2018]; root of context hierarchy
+23:41:23:430 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:41:23:455 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:41:23:509 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:41:23:567 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+23:41:23:668 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+23:41:24:900 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:124] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+23:41:24:916 ERROR [org.hibernate.internal.SessionFactoryImpl:981] HHH000302: Unable to construct current session context [org.springframework.orm.hibernate4.SpringSessionContext]
+org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [org.springframework.orm.hibernate4.SpringSessionContext]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:348)
+	at org.hibernate.internal.SessionFactoryImpl.buildCurrentSessionContext(SessionFactoryImpl.java:975)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:319)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:460)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:535)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:741)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:144)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:95)
+	at fab.chemist.dbsql.test.utils.JunitUtils.loadContext(JunitUtils.java:22)
+	at fab.chemist.dbsql.test.connectDb.ProductsTest.init(ProductsTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: java.lang.ClassNotFoundException: Could not load requested class : org.springframework.orm.hibernate4.SpringSessionContext
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl$AggregatedClassLoader.findClass(ClassLoaderServiceImpl.java:336)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:345)
+	... 45 more
+23:41:24:933 INFO  [org.springframework.orm.hibernate5.HibernateTransactionManager:378] Using DataSource [org.apache.commons.dbcp.BasicDataSource@7ce4de34] of Hibernate SessionFactory for HibernateTransactionManager
+23:41:24:936 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productsDao': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'CRM' available
+23:41:24:938 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@763cf5b9: startup date [Sun May 13 23:41:24 CEST 2018]; root of context hierarchy
+23:41:24:939 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:41:24:966 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:41:25:013 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:41:25:052 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+23:41:25:141 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+23:41:26:230 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:124] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+23:41:26:242 ERROR [org.hibernate.internal.SessionFactoryImpl:981] HHH000302: Unable to construct current session context [org.springframework.orm.hibernate4.SpringSessionContext]
+org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [org.springframework.orm.hibernate4.SpringSessionContext]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:348)
+	at org.hibernate.internal.SessionFactoryImpl.buildCurrentSessionContext(SessionFactoryImpl.java:975)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:319)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:460)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:535)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:741)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:144)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:95)
+	at fab.chemist.dbsql.test.utils.JunitUtils.loadContext(JunitUtils.java:22)
+	at fab.chemist.dbsql.test.connectDb.ProductsTest.init(ProductsTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: java.lang.ClassNotFoundException: Could not load requested class : org.springframework.orm.hibernate4.SpringSessionContext
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl$AggregatedClassLoader.findClass(ClassLoaderServiceImpl.java:336)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:345)
+	... 45 more
+23:41:26:253 INFO  [org.springframework.orm.hibernate5.HibernateTransactionManager:378] Using DataSource [org.apache.commons.dbcp.BasicDataSource@7be71476] of Hibernate SessionFactory for HibernateTransactionManager
+23:41:26:255 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productsDao': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'CRM' available
+23:41:26:257 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1effd53c: startup date [Sun May 13 23:41:26 CEST 2018]; root of context hierarchy
+23:41:26:259 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:41:26:275 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:41:26:297 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:41:26:325 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+23:41:26:413 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+23:41:27:693 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:124] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+23:41:27:714 ERROR [org.hibernate.internal.SessionFactoryImpl:981] HHH000302: Unable to construct current session context [org.springframework.orm.hibernate4.SpringSessionContext]
+org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [org.springframework.orm.hibernate4.SpringSessionContext]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:348)
+	at org.hibernate.internal.SessionFactoryImpl.buildCurrentSessionContext(SessionFactoryImpl.java:975)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:319)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:460)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:535)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:741)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:144)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:95)
+	at fab.chemist.dbsql.test.utils.JunitUtils.loadContext(JunitUtils.java:22)
+	at fab.chemist.dbsql.test.connectDb.ProductsTest.init(ProductsTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: java.lang.ClassNotFoundException: Could not load requested class : org.springframework.orm.hibernate4.SpringSessionContext
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl$AggregatedClassLoader.findClass(ClassLoaderServiceImpl.java:336)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:345)
+	... 45 more
+23:41:27:737 INFO  [org.springframework.orm.hibernate5.HibernateTransactionManager:378] Using DataSource [org.apache.commons.dbcp.BasicDataSource@611a990b] of Hibernate SessionFactory for HibernateTransactionManager
+23:41:27:742 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productsDao': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'CRM' available
+23:41:27:744 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4730e0f0: startup date [Sun May 13 23:41:27 CEST 2018]; root of context hierarchy
+23:41:27:744 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:41:27:767 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:41:27:808 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:41:27:849 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+23:41:27:926 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+23:41:29:033 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:124] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+23:41:29:054 ERROR [org.hibernate.internal.SessionFactoryImpl:981] HHH000302: Unable to construct current session context [org.springframework.orm.hibernate4.SpringSessionContext]
+org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [org.springframework.orm.hibernate4.SpringSessionContext]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:348)
+	at org.hibernate.internal.SessionFactoryImpl.buildCurrentSessionContext(SessionFactoryImpl.java:975)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:319)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:460)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:710)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:535)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:741)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:144)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:95)
+	at fab.chemist.dbsql.test.utils.JunitUtils.loadContext(JunitUtils.java:22)
+	at fab.chemist.dbsql.test.connectDb.ProductsTest.init(ProductsTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: java.lang.ClassNotFoundException: Could not load requested class : org.springframework.orm.hibernate4.SpringSessionContext
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl$AggregatedClassLoader.findClass(ClassLoaderServiceImpl.java:336)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:345)
+	... 45 more
+23:41:29:077 INFO  [org.springframework.orm.hibernate5.HibernateTransactionManager:378] Using DataSource [org.apache.commons.dbcp.BasicDataSource@31e76a8d] of Hibernate SessionFactory for HibernateTransactionManager
+23:41:29:082 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productsDao': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'CRM' available
+23:46:31:557 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d554825: startup date [Sun May 13 23:46:31 CEST 2018]; root of context hierarchy
+23:46:31:633 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:46:31:783 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:46:32:101 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:46:32:414 INFO  [org.hibernate.Version:45] HHH000412: Hibernate Core {5.2.16.Final}
+23:46:32:415 INFO  [org.hibernate.cfg.Environment:213] HHH000206: hibernate.properties not found
+23:46:32:429 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+23:46:32:547 INFO  [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+23:46:32:755 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+23:46:34:123 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:124] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+23:46:34:125 INFO  [org.hibernate.type.BasicTypeRegistry:148] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3f390d63
+23:46:34:586 INFO  [org.springframework.orm.hibernate5.HibernateTransactionManager:378] Using DataSource [org.apache.commons.dbcp.BasicDataSource@34123d65] of Hibernate SessionFactory for HibernateTransactionManager
+23:46:34:607 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productsDao': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'CRM' available
+23:46:34:623 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67ec8477: startup date [Sun May 13 23:46:34 CEST 2018]; root of context hierarchy
+23:46:34:624 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:46:34:646 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:46:34:676 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:46:34:710 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+23:46:34:797 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+23:46:36:012 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:124] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+23:46:36:013 INFO  [org.hibernate.type.BasicTypeRegistry:148] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3f390d63
+23:46:36:049 INFO  [org.springframework.orm.hibernate5.HibernateTransactionManager:378] Using DataSource [org.apache.commons.dbcp.BasicDataSource@29314cc9] of Hibernate SessionFactory for HibernateTransactionManager
+23:46:36:055 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productsDao': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'CRM' available
+23:46:36:060 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1549bba7: startup date [Sun May 13 23:46:36 CEST 2018]; root of context hierarchy
+23:46:36:063 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:46:36:099 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:46:36:172 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:46:36:237 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+23:46:36:341 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+23:46:37:470 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:124] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+23:46:37:470 INFO  [org.hibernate.type.BasicTypeRegistry:148] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3f390d63
+23:46:37:506 INFO  [org.springframework.orm.hibernate5.HibernateTransactionManager:378] Using DataSource [org.apache.commons.dbcp.BasicDataSource@d56aaa6] of Hibernate SessionFactory for HibernateTransactionManager
+23:46:37:514 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productsDao': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'CRM' available
+23:46:37:525 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1dc76fa1: startup date [Sun May 13 23:46:37 CEST 2018]; root of context hierarchy
+23:46:37:525 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:46:37:552 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:46:37:609 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:46:37:667 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+23:46:37:771 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+23:46:39:003 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:124] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+23:46:39:004 INFO  [org.hibernate.type.BasicTypeRegistry:148] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3f390d63
+23:46:39:038 INFO  [org.springframework.orm.hibernate5.HibernateTransactionManager:378] Using DataSource [org.apache.commons.dbcp.BasicDataSource@67fc2aad] of Hibernate SessionFactory for HibernateTransactionManager
+23:46:39:042 WARN  [org.springframework.context.support.AbstractApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productsDao': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'CRM' available
+23:46:39:045 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7ff35a3f: startup date [Sun May 13 23:46:39 CEST 2018]; root of context hierarchy
+23:46:39:045 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:46:39:072 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-service-dao.xml]
+23:46:39:107 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+23:46:39:144 WARN  [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver:91] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+23:46:39:226 INFO  [org.hibernate.dialect.Dialect:157] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+23:58:56:490 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d554825: startup date [Sun May 13 23:58:56 CEST 2018]; root of context hierarchy
+23:58:56:568 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:58:56:734 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [persistence.xml]
+23:58:57:431 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@43a0cee9: startup date [Sun May 13 23:58:57 CEST 2018]; root of context hierarchy
+23:58:57:432 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:58:57:468 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [persistence.xml]
+23:58:57:875 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@281e3708: startup date [Sun May 13 23:58:57 CEST 2018]; root of context hierarchy
+23:58:57:876 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:58:57:920 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [persistence.xml]
+23:58:58:331 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1ad282e0: startup date [Sun May 13 23:58:58 CEST 2018]; root of context hierarchy
+23:58:58:332 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:58:58:372 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [persistence.xml]
+23:58:58:780 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2bbaf4f0: startup date [Sun May 13 23:58:58 CEST 2018]; root of context hierarchy
+23:58:58:781 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:58:58:819 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [persistence.xml]
+23:58:59:225 INFO  [org.springframework.context.support.AbstractApplicationContext:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@49070868: startup date [Sun May 13 23:58:59 CEST 2018]; root of context hierarchy
+23:58:59:226 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-config-db-test.xml]
+23:58:59:267 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [persistence.xml]

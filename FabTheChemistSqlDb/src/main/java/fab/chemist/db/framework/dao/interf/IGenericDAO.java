@@ -3,6 +3,8 @@ package fab.chemist.db.framework.dao.interf;
 import java.io.Serializable;
 import java.util.List;
 
+import javax.persistence.LockModeType;
+
 import org.hibernate.LockOptions;
 
 
@@ -19,7 +21,7 @@ public interface IGenericDAO<T extends Serializable, KEY extends Serializable> e
      * @throws org.hibernate.HibernateException
      *
      */
-	KEY save(T t);
+	void save(T t);
 
     void save(List<T> t);
 
@@ -94,7 +96,10 @@ public interface IGenericDAO<T extends Serializable, KEY extends Serializable> e
 	 * @param entita persistent or transient instance
 	 * @param lockOptions the lock level
 	 */
-    void lock(T entity, LockOptions lockOptions);
+    //void lock(T entity, LockOptions lockOptions);
+    
+    
+    void lock(T entity, LockModeType lockOptions);
     
 	//Long getRowCount();
 

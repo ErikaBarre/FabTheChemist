@@ -5,6 +5,8 @@ import static org.springframework.transaction.annotation.Propagation.REQUIRED;
 import java.io.Serializable;
 import java.util.List;
 
+import javax.persistence.Entity;
+
 import org.springframework.beans.factory.annotation.Required;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -58,8 +60,8 @@ public class ImmutableGenericService <T extends IImmutableGenericDAO<E,KEY>, E e
 	}
 
 	@Transactional
-	public Long getRowCount() {
+	public Long getRowCount(Entity entity) {
 		// TODO Auto-generated method stub
-		return _dao.getRowCount();
+		return _dao.getRowCount(entity);
 	}
 }

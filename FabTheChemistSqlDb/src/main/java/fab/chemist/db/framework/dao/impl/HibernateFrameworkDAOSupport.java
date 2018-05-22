@@ -1,9 +1,9 @@
 package fab.chemist.db.framework.dao.impl;
 
-import javax.annotation.Resource;
-
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.PersistenceContext;
+import javax.persistence.PersistenceUnit;
 
 /**
  * Used to manager session factory + autowired injection
@@ -11,25 +11,22 @@ import org.hibernate.SessionFactory;
  * 
  */
 public abstract class HibernateFrameworkDAOSupport {
+	
+	@PersistenceContext
+	  private EntityManager entityManager;
+	
+	@PersistenceUnit(
+			unitName = "CRM"
+	)
+	private EntityManagerFactory entityManagerFactory;
 
-	/**
-	 * Hibernate SessionFactory
-	 */
-	private SessionFactory _sessionFactory;
-
-	@Resource(name = "sessionFactory")
-	public void setSessionFactory(SessionFactory sessionFactory) {
-		_sessionFactory = sessionFactory;
+	public EntityManager getEntityManager () {
+		// EntityManager entityManager = entityManagerFactory.createEntityManager( );
+		 return entityManager;
 	}
+	
 
-	protected final Session getSession() {
-		
-		
-		
-		return getSession(false);
-	}
-
-	protected final Session getSession(boolean allowCreate) {
-		return _sessionFactory.getCurrentSession();
-	}	
+	//EntityManagerFactory emfactory = Persistence.createEntityManagerFactory( "Eclipselink_JPA" );
 }
+
+

@@ -20,7 +20,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<basedir>/home/fabrice/Developpement/maven3-repo</basedir>
 		<basedir2>/home/pi/maven3-repo</basedir2>
-		<spring.version>5.0.2.RELEASE</spring.version> 
+		<spring.version>5.0.4.RELEASE</spring.version> 
 		<log4j.version>1.2.17</log4j.version>
 		<slf4j.version>1.7.25</slf4j.version>
 		<activiti.version>5.15.1</activiti.version>
@@ -207,18 +207,13 @@
 			<version>${spring.version}</version>
 		</dependency>
 
-		<dependency>
+		<!-- <dependency>
 			<groupId>javax.persistence</groupId>
 			<artifactId>persistence-api</artifactId>
 			<version>1.0</version>
 		</dependency>
-
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-core</artifactId>
-			<version>4.2.2.Final</version>
-		</dependency>
-
+ -->
+	
 		<dependency>
 			<groupId>org.jboss.logging</groupId>
 			<artifactId>jboss-logging</artifactId>
@@ -231,16 +226,24 @@
 			<version>1.0.1.Final</version>
 		</dependency>
 
-		<dependency>
-			<groupId>org.hibernate.javax.persistence</groupId>
-			<artifactId>hibernate-jpa-2.0-api</artifactId>
-			<version>1.0.1.Final</version>
-		</dependency>
 
 		<dependency>
 			<groupId>org.javassist</groupId>
 			<artifactId>javassist</artifactId>
 			<version>3.17.1-GA</version>
 		</dependency>
+		
+		<dependency>
+		    <groupId>javax.annotation</groupId>
+		    <artifactId>javax.annotation-api</artifactId>
+		    <version>1.3.2</version>
+		</dependency>
+		
+		<dependency>
+    <groupId>joda-time</groupId>
+    <artifactId>joda-time</artifactId>
+    <version>2.9.9</version>
+</dependency>
+		
 	</dependencies> 
 </project>

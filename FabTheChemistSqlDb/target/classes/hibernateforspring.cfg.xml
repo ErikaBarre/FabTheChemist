@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="show_sql">false</property> 
+  		<property name="dialect">org.hibernate.dialect.PostgreSQL95Dialect</property> 
+  		<property name="jdbc.batch_size">20</property> 
+  		<property name="jdbc.use_scrollable_resultset">true</property> 
+  		<property name="bytecode.use_reflection_optimizer">true</property> 
+  		<property name="cache.provider_class">org.hibernate.cache.HashtableCacheProvider</property>
+  		<property name="use_sql_comments">true</property> 
+	 	<property name="current_session_context_class">org.springframework.orm.hibernate5.SpringSessionContext</property>  
+	 	<property name="connection.pool_size">20</property>
+ 	 	<!-- <property name="current_session_context_class">thread</property>  -->
+	 	 
+		<property name="transaction.flush_before_completion">true</property> 
+<!--        <property name="connection.release_mode">after_statement</property>  -->  
+ 		<property name="connection.release_mode">after_transaction</property>   
+		<property name="jdbc.use_streams_for_binary">true</property> 
+
+	</session-factory>
+</hibernate-configuration>

@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface IGenericService<E extends Serializable, KEY extends Serializable> extends IImmutableGenericService<E, KEY>{
 
-	KEY save(E entity);
+	void save(E entity);
 
 	void save(List<E> entities);
 

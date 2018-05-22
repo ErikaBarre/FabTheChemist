@@ -29,8 +29,8 @@ public class GenericService<T extends IGenericDAO<E,KEY>, E extends Serializable
 	 * @see ec.ep.dit.simple.framework.service.GenericService#save(ec.ep.dit.simple.framework.bo.rmsi.sdw.simple.sched.framework.hibernate.bo.interfaces.PersistentObject)
 	 */
 	@Transactional(propagation = REQUIRED)
-	public KEY save(E entity) {
-		return _dao.save(entity);
+	public void save(E entity) {
+		_dao.save(entity);
 	}
 
 	/**
