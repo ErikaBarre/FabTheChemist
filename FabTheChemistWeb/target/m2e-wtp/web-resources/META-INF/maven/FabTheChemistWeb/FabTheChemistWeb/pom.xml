@@ -10,7 +10,7 @@
 		<web.resources.folder>WebContent</web.resources.folder>
 		<war.name>fabthechemist</war.name>
 		<war.directory>../../../../tools/tomcat/6_0_36-ep-01/webapps/FabTheChemist</war.directory>
-		<spring.version>3.2.7.RELEASE</spring.version>
+		<spring.version>5.0.4.RELEASE</spring.version>
 		<log4j.version>1.2.17</log4j.version>
 		<jstl.version>1.2</jstl.version>
 		<jackson.version>2.3.1</jackson.version>
