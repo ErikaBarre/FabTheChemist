@@ -71,5 +71,13 @@ CREATE TABLE Contact (
     starred boolean not null,
     website varchar(255)
 );
-
+CREATE TABLE User (
+    id integer  PRIMARY KEY,
+    first varchar(255),
+    last varchar(255),
+    middle varchar(255),
+    notes varchar(255),
+    starred boolean not null,
+    website varchar(255)
+);
 
