@@ -10,6 +10,70 @@ CREATE TABLE address (
   street VARCHAR(255),
   city VARCHAR(255),
   country VARCHAR(255));
+  
+  
+  
+  CREATE SEQUENCE address_seq;
+create table address(
+id integer NOT NULL DEFAULT nextval('address_seq') NOT NULL
+street varchar(250),
+city    varchar(250),
+country varchar(250),
+customer_id integer REFERENCES customer (id)
+)
+;
+CREATE SEQUENCE email_address_seq;
+CREATE TABLE email_address(
+id    integer NOT NULL DEFAULT nextval('email_address_seq') NOT NULL
+address varchar(250)
+customer_id integer REFERENCES customer (id)
+)
+;
+CREATE SEQUENCE customer_seq;
+create table customer
+id    integer NOT NULL DEFAULT nextval('address_seq') NOT NULL
+name    varchar(250),
+email_address varchar(250),
+addresses varchar(250)
+;
+CREATE SEQUENCE product_seq;
+create table product
+id  integer NOT NULL DEFAULT nextval('product_seq') NOT NULL
+name varchar(250),
+description varchar(250),
+attributes varchar(250),
+price integer,
+line_item_id integer REFERENCES order(id)
+
+;
+create SEQUENCE order_seq;
+create table order
+id  integer NOT NULL DEFAULT nextval('order_seq') NOT NULL
+date
+customer
+shipping_address
+billing_addess
+line_items
+status
+customer_id integer REFERENCES customer (id)
+;
+create SEQUENCE line_item_seq;
+create table line_item
+id  integer NOT NULL DEFAULT nextval('line_item_seq') NOT NULL
+product,
+quantity
+price
+;
+create SEQUENCE cart_seq;
+create table cart
+id  integer NOT NULL DEFAULT nextval('cart_seq') NOT NULL
+line_items integer REFERENCES line_item(id)
+customer_id integer REFERENCES customer (id)
+
+
+
+  
+  
 INSERT INTO customer(id, first_name, last_name, email_address) VALUES(100, 'John', 'Doe', 'john@doe.com');
 INSERT INTO customer(id, first_name, last_name, email_address) VALUES(101, 'Jane', 'Doe', 'jane@doe.com');
 INSERT INTO customer(id, first_name, last_name, email_address) VALUES(102, 'Bob', 'Doe', 'bob@doe.com');
