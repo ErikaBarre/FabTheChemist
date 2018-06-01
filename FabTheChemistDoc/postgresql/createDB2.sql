@@ -53,9 +53,9 @@ line_items integer REFERENCES line_item(id),
 customer_id integer REFERENCES customer (id)
 );
   
-INSERT INTO customer(id, first_name, last_name, email) VALUES(100, 'John', 'Doe', 'john@doe.com');
-INSERT INTO customer(id, first_name, last_name, email) VALUES(101, 'Jane', 'Doe', 'jane@doe.com');
-INSERT INTO customer(id, first_name, last_name, email) VALUES(102, 'Bob', 'Doe', 'bob@doe.com');
+INSERT INTO customer(id, firstname, lastname, email) VALUES(100, 'John', 'Doe', 'john@doe.com');
+INSERT INTO customer(id, firstname, lastname, email) VALUES(101, 'Jane', 'Doe', 'jane@doe.com');
+INSERT INTO customer(id, firstname, lastname, email) VALUES(102, 'Bob', 'Doe', 'bob@doe.com');
 ALTER TABLE customer ALTER COLUMN id RESTART WITH 200;
 INSERT INTO address(customer_id, street, city, country) VALUES(100, '6 Main St', 'Newtown', 'USA');
 INSERT INTO address(customer_id, street, city, country) VALUES(100, '128 N. South St', 'Middletown', 'USA');
@@ -64,17 +64,17 @@ INSERT INTO address(customer_id, street, city, country) VALUES(102, '512 North S
 insert into Customer (id, email, firstname, lastname) values (2, 'carter@dmband.com', 'Carter', 'Beauford');
 insert into Customer (id, email, firstname, lastname) values (3, 'boyd@dmband.com', 'Boyd', 'Tinsley');
 
-insert into Address (id, street, city, country, customer_id) values (1, '27 Broadway', 'New York', 'United States', 1);
-insert into Address (id, street, city, country, customer_id) values (2, '27 Broadway', 'New York', 'United States', 1);
+insert into Address (street, city, country, customer_id) values ('27 Broadway', 'Akron', 'USA', 2);
+insert into Address (street, city, country, customer_id) values ('27 Broadway', 'New York', 'USA', 3);
 
-insert into Product (id, name, description, price) values (1, 'iPad', 'Apple tablet device', 499.0);
-insert into Product (id, name, description, price) values (2, 'MacBook Pro', 'Apple notebook', 1299.0);
-insert into Product (id, name, description, price) values (3, 'Dock', 'Dock for iPhone/iPad', 49.0);
+insert into Product ( name, description, price) values ( 'iPad', 'Apple tablet device', 499.0);
+insert into Product ( name, description, price) values ( 'MacBook Pro', 'Apple notebook', 1299.0);
+insert into Product ( name, description, price) values ( 'Dock', 'Dock for iPhone/iPad', 49.0);
 
 insert into Product_Attributes (attributes_key, product_id, attributes) values ('connector', 1, 'socket');
 insert into Product_Attributes (attributes_key, product_id, attributes) values ('connector', 3, 'plug');
 
-insert into order (id, customer_id, shippingaddress_id) values (1, 1, 2);
-insert into line_item(id, product_id, amount, order_id, price) values (1, 1, 2, 1, 499.0);
-insert into line_item(id, product_id, amount, order_id, price) values (2, 2, 1, 1, 1299.0);
+insert into orders ( customer_id, shipping_address_id) values ( 1, 2);
+insert into line_item( product_id, amount, order_id, price) values ( 1, 2, 1, 499.0);
+insert into line_item( product_id, amount, order_id, price) values ( 2, 1, 1, 1299.0);
   
