@@ -1,82 +1,61 @@
+CREATE SEQUENCE customer_seq;
 CREATE TABLE customer (
-  id BIGINT IDENTITY PRIMARY KEY,
-  first_name VARCHAR(255),
-  last_name VARCHAR(255),
-  email_address VARCHAR(255));
-CREATE UNIQUE INDEX ix_customer_email ON CUSTOMER (email_address ASC);
+  id BIGINT NOT NULL DEFAULT nextval('customer_seq'),  
+  firstname VARCHAR(255),
+  lastname VARCHAR(255),
+  email VARCHAR(255),
+  PRIMARY KEY (id)
+  );
+CREATE UNIQUE INDEX idx_customer_email ON CUSTOMER (email ASC);
+CREATE SEQUENCE address_seq;
 CREATE TABLE address (
-  id BIGINT IDENTITY PRIMARY KEY,
+    id BIGINT NOT NULL DEFAULT nextval('address_seq') PRIMARY KEY,
   customer_id BIGINT CONSTRAINT address_customer_ref REFERENCES customer (id),
   street VARCHAR(255),
   city VARCHAR(255),
-  country VARCHAR(255));
-  
-  
-  
-  CREATE SEQUENCE address_seq;
-create table address(
-id integer NOT NULL DEFAULT nextval('address_seq') NOT NULL
-street varchar(250),
-city    varchar(250),
-country varchar(250),
-customer_id integer REFERENCES customer (id)
+  country VARCHAR(255)
 )
-;
-CREATE SEQUENCE email_address_seq;
-CREATE TABLE email_address(
-id    integer NOT NULL DEFAULT nextval('email_address_seq') NOT NULL
-address varchar(250)
-customer_id integer REFERENCES customer (id)
-)
-;
-CREATE SEQUENCE customer_seq;
-create table customer
-id    integer NOT NULL DEFAULT nextval('address_seq') NOT NULL
-name    varchar(250),
-email_address varchar(250),
-addresses varchar(250)
 ;
 CREATE SEQUENCE product_seq;
-create table product
-id  integer NOT NULL DEFAULT nextval('product_seq') NOT NULL
+create table product(
+id BIGINT NOT NULL DEFAULT nextval('product_seq')  PRIMARY KEY,
 name varchar(250),
 description varchar(250),
-attributes varchar(250),
-price integer,
-line_item_id integer REFERENCES order(id)
-
+price integer
+)
+;
+CREATE SEQUENCE product_attribute_seq;
+create table product_attributes(
+id BIGINT NOT NULL DEFAULT nextval('product_attribute_seq') PRIMARY KEY,
+attributes_key 	varchar(250),
+attributes 	varchar(250),
+product_id  BIGINT CONSTRAINT fk_product_attribute REFERENCES product (id)
+)
 ;
 create SEQUENCE order_seq;
-create table order
-id  integer NOT NULL DEFAULT nextval('order_seq') NOT NULL
-date
-customer
-shipping_address
-billing_addess
-line_items
-status
-customer_id integer REFERENCES customer (id)
-;
+create table orders (
+id BIGINT NOT NULL DEFAULT nextval('order_seq') PRIMARY KEY,
+customer_id BIGINT CONSTRAINT FK_ORDER_CUSTOMER REFERENCES customer (id),
+shipping_address_id BIGINT  CONSTRAINT FK_ORDER_ADDRESS REFERENCES address (id)
+);
 create SEQUENCE line_item_seq;
-create table line_item
-id  integer NOT NULL DEFAULT nextval('line_item_seq') NOT NULL
-product,
-quantity
-price
+create table line_item (
+id  integer NOT NULL DEFAULT nextval('line_item_seq') PRIMARY KEY,
+product_id  BIGINT CONSTRAINT fk_product_line REFERENCES product (id) ,
+amount integer,
+price integer
+)
 ;
 create SEQUENCE cart_seq;
-create table cart
-id  integer NOT NULL DEFAULT nextval('cart_seq') NOT NULL
-line_items integer REFERENCES line_item(id)
+create table cart (
+id  integer NOT NULL DEFAULT nextval('cart_seq') PRIMARY KEY,
+line_items integer REFERENCES line_item(id),
 customer_id integer REFERENCES customer (id)
-
-
-
+);
   
-  
-INSERT INTO customer(id, first_name, last_name, email_address) VALUES(100, 'John', 'Doe', 'john@doe.com');
-INSERT INTO customer(id, first_name, last_name, email_address) VALUES(101, 'Jane', 'Doe', 'jane@doe.com');
-INSERT INTO customer(id, first_name, last_name, email_address) VALUES(102, 'Bob', 'Doe', 'bob@doe.com');
+INSERT INTO customer(id, first_name, last_name, email) VALUES(100, 'John', 'Doe', 'john@doe.com');
+INSERT INTO customer(id, first_name, last_name, email) VALUES(101, 'Jane', 'Doe', 'jane@doe.com');
+INSERT INTO customer(id, first_name, last_name, email) VALUES(102, 'Bob', 'Doe', 'bob@doe.com');
 ALTER TABLE customer ALTER COLUMN id RESTART WITH 200;
 INSERT INTO address(customer_id, street, city, country) VALUES(100, '6 Main St', 'Newtown', 'USA');
 INSERT INTO address(customer_id, street, city, country) VALUES(100, '128 N. South St', 'Middletown', 'USA');
@@ -95,7 +74,7 @@ insert into Product (id, name, description, price) values (3, 'Dock', 'Dock for 
 insert into Product_Attributes (attributes_key, product_id, attributes) values ('connector', 1, 'socket');
 insert into Product_Attributes (attributes_key, product_id, attributes) values ('connector', 3, 'plug');
 
-insert into Orders (id, customer_id, shippingaddress_id) values (1, 1, 2);
-insert into LineItem (id, product_id, amount, order_id, price) values (1, 1, 2, 1, 499.0);
-insert into LineItem (id, product_id, amount, order_id, price) values (2, 2, 1, 1, 1299.0);
+insert into order (id, customer_id, shippingaddress_id) values (1, 1, 2);
+insert into line_item(id, product_id, amount, order_id, price) values (1, 1, 2, 1, 499.0);
+insert into line_item(id, product_id, amount, order_id, price) values (2, 2, 1, 1, 1299.0);
   
