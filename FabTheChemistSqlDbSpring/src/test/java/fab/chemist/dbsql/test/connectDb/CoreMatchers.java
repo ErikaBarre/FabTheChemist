@@ -19,7 +19,7 @@ package fab.chemist.dbsql.test.connectDb;
 
 import org.hamcrest.Matcher;
 
-import fab.chemist.db.spring.db.repository.impl.Product;
+import fab.chemist.spring.db.repository.impl.Product;
 
 /**
  * Custom matchers to ease assertions on our domain classes.

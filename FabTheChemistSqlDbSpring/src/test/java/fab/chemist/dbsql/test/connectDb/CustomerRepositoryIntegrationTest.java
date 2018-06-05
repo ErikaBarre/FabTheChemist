@@ -22,7 +22,7 @@ import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 
-import fab.chemist.db.spring.db.framework.ApplicationConfig;
+import fab.chemist.spring.db.framework.ApplicationConfig;
 
 //import com.oreilly.springdata.jpa.AbstractIntegrationTest;
 //import com.oreilly.springdata.jpa.ApplicationConfig;

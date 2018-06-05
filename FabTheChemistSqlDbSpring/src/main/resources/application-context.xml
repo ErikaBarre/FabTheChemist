@@ -9,7 +9,9 @@
 		http://www.springframework.org/schema/data/jpa http://www.springframework.org/schema/data/jpa/spring-jpa.xsd
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
 
-	<jpa:repositories base-package="fab.chemist.db.spring.db.framework" />
+	<!-- <jpa:repositories base-package="fab.chemist.spring.db.framework" /> -->
+	
+	<jpa:repositories base-package="fab.chemist.spring.db.dao.interf" />
 
 	<bean class="org.springframework.orm.jpa.JpaTransactionManager">
 		<property name="entityManagerFactory" ref="entityManagerFactory" />
