@@ -43,7 +43,7 @@ class JpaCustomerRepository implements CustomerRepository {
 	public Customer findOne(Long id) {
 		return em.find(Customer.class, id);
 		
-		JpaRepository f;
+		//JpaRepository f;
 	}
 
 	/*

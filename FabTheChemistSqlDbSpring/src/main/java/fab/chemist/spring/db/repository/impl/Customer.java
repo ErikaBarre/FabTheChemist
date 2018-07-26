@@ -53,10 +53,6 @@ public class Customer extends AbstractEntity {
 	 * @param lastname must not be {@literal null} or empty.
 	 */
 	public Customer(String firstname, String lastname) {
-
-		Assert.hasText(firstname);
-		Assert.hasText(lastname);
-
 		this.firstname = firstname;
 		this.lastname = lastname;
 	}
